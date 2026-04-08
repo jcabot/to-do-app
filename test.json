@@ -10,13 +10,13 @@
     "ClassDiagram": [
       {
         "id": "45470338-05da-48f7-a675-ec673e3b7f6c",
-        "title": "to-do schema",
+        "title": "todo schema",
         "model": {
           "version": "3.0.0",
           "type": "ClassDiagram",
           "size": {
-            "width": 1480,
-            "height": 1000
+            "width": 960,
+            "height": 680
           },
           "interactive": {
             "elements": {},
@@ -237,8 +237,8 @@
               "type": "Enumeration",
               "owner": null,
               "bounds": {
-                "x": 70,
-                "y": -360,
+                "x": -90,
+                "y": -320,
                 "width": 220,
                 "height": 150
               },
@@ -256,8 +256,8 @@
               "type": "ClassAttribute",
               "owner": "class_amp631r2z_mnpqc1gw_f6r",
               "bounds": {
-                "x": 70.5,
-                "y": -309.5,
+                "x": -89.5,
+                "y": -269.5,
                 "width": 219,
                 "height": 25
               },
@@ -276,8 +276,8 @@
               "type": "ClassAttribute",
               "owner": "class_amp631r2z_mnpqc1gw_f6r",
               "bounds": {
-                "x": 70.5,
-                "y": -284.5,
+                "x": -89.5,
+                "y": -244.5,
                 "width": 219,
                 "height": 25
               },
@@ -296,8 +296,8 @@
               "type": "ClassAttribute",
               "owner": "class_amp631r2z_mnpqc1gw_f6r",
               "bounds": {
-                "x": 70.5,
-                "y": -259.5,
+                "x": -89.5,
+                "y": -219.5,
                 "width": 219,
                 "height": 25
               },
@@ -316,8 +316,8 @@
               "type": "ClassAttribute",
               "owner": "class_amp631r2z_mnpqc1gw_f6r",
               "bounds": {
-                "x": 70.5,
-                "y": -234.5,
+                "x": -89.5,
+                "y": -194.5,
                 "width": 219,
                 "height": 25
               },
@@ -336,8 +336,8 @@
               "type": "Enumeration",
               "owner": null,
               "bounds": {
-                "x": -720,
-                "y": -480,
+                "x": -460,
+                "y": -310,
                 "width": 220,
                 "height": 150
               },
@@ -355,8 +355,8 @@
               "type": "ClassAttribute",
               "owner": "class_96igzxlci_mnpqc1gw_coa",
               "bounds": {
-                "x": -719.5,
-                "y": -429.5,
+                "x": -459.5,
+                "y": -259.5,
                 "width": 219,
                 "height": 25
               },
@@ -375,8 +375,8 @@
               "type": "ClassAttribute",
               "owner": "class_96igzxlci_mnpqc1gw_coa",
               "bounds": {
-                "x": -719.5,
-                "y": -404.5,
+                "x": -459.5,
+                "y": -234.5,
                 "width": 219,
                 "height": 25
               },
@@ -395,8 +395,8 @@
               "type": "ClassAttribute",
               "owner": "class_96igzxlci_mnpqc1gw_coa",
               "bounds": {
-                "x": -719.5,
-                "y": -379.5,
+                "x": -459.5,
+                "y": -209.5,
                 "width": 219,
                 "height": 25
               },
@@ -415,8 +415,8 @@
               "type": "ClassAttribute",
               "owner": "class_96igzxlci_mnpqc1gw_coa",
               "bounds": {
-                "x": -719.5,
-                "y": -354.5,
+                "x": -459.5,
+                "y": -184.5,
                 "width": 219,
                 "height": 25
               },
@@ -435,8 +435,8 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -510,
-                "y": 60,
+                "x": -410,
+                "y": 50,
                 "width": 220,
                 "height": 140
               },
@@ -454,8 +454,8 @@
               "type": "ClassAttribute",
               "owner": "class_qegr99f2i_mnpqlas7_cps",
               "bounds": {
-                "x": -509.5,
-                "y": 100.5,
+                "x": -409.5,
+                "y": 90.5,
                 "width": 219,
                 "height": 25
               },
@@ -474,8 +474,8 @@
               "type": "ClassAttribute",
               "owner": "class_qegr99f2i_mnpqlas7_cps",
               "bounds": {
-                "x": -509.5,
-                "y": 125.5,
+                "x": -409.5,
+                "y": 115.5,
                 "width": 219,
                 "height": 25
               },
@@ -494,8 +494,8 @@
               "type": "ClassAttribute",
               "owner": "class_qegr99f2i_mnpqlas7_cps",
               "bounds": {
-                "x": -509.5,
-                "y": 150.5,
+                "x": -409.5,
+                "y": 140.5,
                 "width": 219,
                 "height": 25
               },
@@ -514,8 +514,8 @@
               "type": "ClassAttribute",
               "owner": "class_qegr99f2i_mnpqlas7_cps",
               "bounds": {
-                "x": -509.5,
-                "y": 175.5,
+                "x": -409.5,
+                "y": 165.5,
                 "width": 219,
                 "height": 25
               },
@@ -536,14 +536,14 @@
               "type": "ClassComposition",
               "owner": null,
               "bounds": {
-                "x": -290,
-                "y": 120,
-                "width": 370,
-                "height": 48
+                "x": -190,
+                "y": 110,
+                "width": 270,
+                "height": 48.60000038146973
               },
               "path": [
                 {
-                  "x": 370,
+                  "x": 270,
                   "y": 10
                 },
                 {
@@ -580,7 +580,7 @@
           },
           "assessments": {}
         },
-        "lastUpdate": "2026-04-08T10:24:50.928Z"
+        "lastUpdate": "2026-04-08T15:20:30.628Z"
       }
     ],
     "ObjectDiagram": [
@@ -1693,6 +1693,19 @@
                 "quantumCircuitId": "",
                 "isOptional": false,
                 "isDerived": false
+              },
+              "6f3b5ddb-d3b2-4bbe-80b5-62d5bb0b0c51": {
+                "id": "6f3b5ddb-d3b2-4bbe-80b5-62d5bb0b0c51",
+                "name": "",
+                "type": "ClassOCLConstraint",
+                "owner": null,
+                "bounds": {
+                  "x": -690,
+                  "y": -100,
+                  "width": 160,
+                  "height": 100
+                },
+                "constraint": "context List inv: listId>=1"
               }
             },
             "relationships": {
@@ -1747,7 +1760,7 @@
             "assessments": {}
           }
         },
-        "lastUpdate": "2026-04-08T08:58:48.616Z",
+        "lastUpdate": "2026-04-08T10:27:17.826Z",
         "references": {
           "ClassDiagram": "45470338-05da-48f7-a675-ec673e3b7f6c"
         }
@@ -2302,7 +2315,7 @@
         "model": {
           "pages": [
             {
-              "name": "Book",
+              "name": "Task",
               "frames": [
                 {
                   "component": {
@@ -2319,20 +2332,20 @@
                     "components": [
                       {
                         "attributes": {
-                          "id": "i1dlb"
+                          "id": "ippfu"
                         },
                         "components": [
                           {
                             "tagName": "nav",
                             "attributes": {
-                              "id": "iuhpn"
+                              "id": "izb5q"
                             },
                             "components": [
                               {
                                 "tagName": "h2",
                                 "type": "text",
                                 "attributes": {
-                                  "id": "intvr"
+                                  "id": "i0jaw"
                                 },
                                 "components": [
                                   {
@@ -2343,58 +2356,32 @@
                               },
                               {
                                 "attributes": {
-                                  "id": "iwkaa"
+                                  "id": "iv798"
                                 },
                                 "components": [
                                   {
                                     "type": "link",
                                     "attributes": {
-                                      "href": "/book",
-                                      "id": "i1nz3"
+                                      "href": "/task",
+                                      "id": "iv61o"
                                     },
                                     "components": [
                                       {
                                         "type": "textnode",
-                                        "content": "Book"
+                                        "content": "Task"
                                       }
                                     ]
                                   },
                                   {
                                     "type": "link",
                                     "attributes": {
-                                      "href": "/member",
-                                      "id": "i37xj"
+                                      "href": "/list",
+                                      "id": "i3cpq"
                                     },
                                     "components": [
                                       {
                                         "type": "textnode",
-                                        "content": "Member"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/loan",
-                                      "id": "ir7dq"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Loan"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/author",
-                                      "id": "iwesu"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Author"
+                                        "content": "List"
                                       }
                                     ]
                                   }
@@ -2403,7 +2390,7 @@
                               {
                                 "type": "text",
                                 "attributes": {
-                                  "id": "i03lf"
+                                  "id": "i6js5"
                                 },
                                 "components": [
                                   {
@@ -2417,19 +2404,19 @@
                           {
                             "tagName": "main",
                             "attributes": {
-                              "id": "i8ec5"
+                              "id": "ibl4t"
                             },
                             "components": [
                               {
                                 "tagName": "h1",
                                 "type": "text",
                                 "attributes": {
-                                  "id": "ihks7"
+                                  "id": "i8ba5"
                                 },
                                 "components": [
                                   {
                                     "type": "textnode",
-                                    "content": "Book"
+                                    "content": "Task"
                                   }
                                 ]
                               },
@@ -2437,12 +2424,12 @@
                                 "tagName": "p",
                                 "type": "text",
                                 "attributes": {
-                                  "id": "ika4h"
+                                  "id": "ifybu"
                                 },
                                 "components": [
                                   {
                                     "type": "textnode",
-                                    "content": "Manage Book data"
+                                    "content": "Manage Task data"
                                   }
                                 ]
                               },
@@ -2451,14 +2438,20 @@
                                 "style": "",
                                 "attributes": {
                                   "chart-color": "#2c3e50",
-                                  "chart-title": "Book List",
-                                  "data-source": "class_ykryfaoj0_mmx8q8jn",
+                                  "chart-title": "Task List",
+                                  "data-source": "class_6iw73zhwg_mnpqc1gv_mpz",
                                   "show-header": "true",
                                   "striped-rows": "false",
                                   "show-pagination": "true",
                                   "rows-per-page": "5",
                                   "action-buttons": "true",
                                   "columns": [
+                                    {
+                                      "field": "taskId",
+                                      "label": "TaskId",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
                                     {
                                       "field": "title",
                                       "label": "Title",
@@ -2466,682 +2459,8 @@
                                       "_expanded": false
                                     },
                                     {
-                                      "field": "isbn",
-                                      "label": "Isbn",
-                                      "columnType": "field",
-                                      "_expanded": false
-                                    },
-                                    {
-                                      "field": "publicationDate",
-                                      "label": "PublicationDate",
-                                      "columnType": "field",
-                                      "_expanded": false
-                                    },
-                                    {
-                                      "field": "copiesAvailable",
-                                      "label": "CopiesAvailable",
-                                      "columnType": "field",
-                                      "_expanded": false
-                                    },
-                                    {
-                                      "field": "writtenBy",
-                                      "label": "WrittenBy",
-                                      "columnType": "lookup",
-                                      "lookupEntity": "class_uplm9kfij_mmx8q8jn",
-                                      "lookupField": "authorId",
-                                      "_expanded": false
-                                    },
-                                    {
-                                      "field": "isLoanedIn",
-                                      "label": "IsLoanedIn",
-                                      "columnType": "lookup",
-                                      "lookupEntity": "class_uqlv53z09_mmx8q8jn",
-                                      "lookupField": "loanId",
-                                      "_expanded": false
-                                    }
-                                  ],
-                                  "id": "table-book-0",
-                                  "filter": ""
-                                },
-                                "chart-title": "Book List",
-                                "data-source": "class_ykryfaoj0_mmx8q8jn",
-                                "show-header": "true",
-                                "striped-rows": "false",
-                                "show-pagination": "true",
-                                "action-buttons": "true",
-                                "rows-per-page": "5",
-                                "filter": "",
-                                "columns": [
-                                  {
-                                    "field": "title",
-                                    "label": "Title",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "isbn",
-                                    "label": "Isbn",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "publicationDate",
-                                    "label": "PublicationDate",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "copiesAvailable",
-                                    "label": "CopiesAvailable",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "writtenBy",
-                                    "label": "WrittenBy",
-                                    "columnType": "lookup",
-                                    "lookupEntity": "class_uplm9kfij_mmx8q8jn",
-                                    "lookupField": "authorId",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "isLoanedIn",
-                                    "label": "IsLoanedIn",
-                                    "columnType": "lookup",
-                                    "lookupEntity": "class_uqlv53z09_mmx8q8jn",
-                                    "lookupField": "loanId",
-                                    "_expanded": false
-                                  }
-                                ],
-                                "components": [
-                                  {
-                                    "type": "tbody",
-                                    "draggable": [
-                                      "table"
-                                    ],
-                                    "droppable": [
-                                      "tr"
-                                    ],
-                                    "components": [
-                                      {
-                                        "type": "row",
-                                        "draggable": [
-                                          "thead",
-                                          "tbody",
-                                          "tfoot"
-                                        ],
-                                        "droppable": [
-                                          "th",
-                                          "td"
-                                        ],
-                                        "classes": [
-                                          "row"
-                                        ],
-                                        "components": [
-                                          {
-                                            "type": "cell",
-                                            "draggable": [
-                                              "tr"
-                                            ],
-                                            "classes": [
-                                              "cell"
-                                            ]
-                                          }
-                                        ]
-                                      }
-                                    ]
-                                  }
-                                ],
-                                "chart-color": "#2c3e50"
-                              },
-                              {
-                                "attributes": {
-                                  "id": "irlwo"
-                                },
-                                "components": [
-                                  {
-                                    "type": "action-button",
-                                    "style": "",
-                                    "classes": [
-                                      "action-button-component"
-                                    ],
-                                    "attributes": {
-                                      "type": "button",
-                                      "data-button-label": "checkout",
-                                      "data-action-type": "run-method",
-                                      "data-method-class": "class_ykryfaoj0_mmx8q8jn",
-                                      "data-method": "method_0eti93918_mmx8q8jn",
-                                      "data-instance-source": "table-book-0",
-                                      "id": "iugyz"
-                                    },
-                                    "button-label": "checkout",
-                                    "action-type": "run-method",
-                                    "method-class": "class_ykryfaoj0_mmx8q8jn",
-                                    "method": "method_0eti93918_mmx8q8jn",
-                                    "instance-source": "table-book-0",
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "checkout"
-                                      }
-                                    ]
-                                  }
-                                ]
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "head": {
-                      "type": "head"
-                    },
-                    "docEl": {
-                      "tagName": "html"
-                    }
-                  },
-                  "id": "Ups6rBouHbel4CLm"
-                }
-              ],
-              "id": "page-book-0",
-              "route_path": "/book"
-            },
-            {
-              "name": "Member",
-              "frames": [
-                {
-                  "component": {
-                    "type": "wrapper",
-                    "stylable": [
-                      "background",
-                      "background-color",
-                      "background-image",
-                      "background-repeat",
-                      "background-attachment",
-                      "background-position",
-                      "background-size"
-                    ],
-                    "components": [
-                      {
-                        "attributes": {
-                          "id": "i2ufk"
-                        },
-                        "components": [
-                          {
-                            "tagName": "nav",
-                            "attributes": {
-                              "id": "is5yx"
-                            },
-                            "components": [
-                              {
-                                "tagName": "h2",
-                                "type": "text",
-                                "attributes": {
-                                  "id": "ix5yh"
-                                },
-                                "components": [
-                                  {
-                                    "type": "textnode",
-                                    "content": "BESSER"
-                                  }
-                                ]
-                              },
-                              {
-                                "attributes": {
-                                  "id": "ixbjm"
-                                },
-                                "components": [
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/book",
-                                      "id": "iy9yj"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Book"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/member",
-                                      "id": "iurh4"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Member"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/loan",
-                                      "id": "iktzi"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Loan"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/author",
-                                      "id": "ikoun"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Author"
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "type": "text",
-                                "attributes": {
-                                  "id": "imzzt"
-                                },
-                                "components": [
-                                  {
-                                    "type": "textnode",
-                                    "content": "\u00a9 2026 BESSER. All rights reserved."
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "tagName": "main",
-                            "attributes": {
-                              "id": "iovel"
-                            },
-                            "components": [
-                              {
-                                "tagName": "h1",
-                                "type": "text",
-                                "attributes": {
-                                  "id": "ijxnc"
-                                },
-                                "components": [
-                                  {
-                                    "type": "textnode",
-                                    "content": "Member"
-                                  }
-                                ]
-                              },
-                              {
-                                "tagName": "p",
-                                "type": "text",
-                                "attributes": {
-                                  "id": "igg8f"
-                                },
-                                "components": [
-                                  {
-                                    "type": "textnode",
-                                    "content": "Manage Member data"
-                                  }
-                                ]
-                              },
-                              {
-                                "type": "table",
-                                "style": "",
-                                "attributes": {
-                                  "chart-color": "#2c3e50",
-                                  "chart-title": "Member List",
-                                  "data-source": "class_q1bot8tqx_mmx8q8jn",
-                                  "show-header": "true",
-                                  "striped-rows": "false",
-                                  "show-pagination": "true",
-                                  "rows-per-page": "5",
-                                  "action-buttons": "true",
-                                  "columns": [
-                                    {
-                                      "field": "memberId",
-                                      "label": "MemberId",
-                                      "columnType": "field",
-                                      "_expanded": false
-                                    },
-                                    {
-                                      "field": "name",
-                                      "label": "Name",
-                                      "columnType": "field",
-                                      "_expanded": false
-                                    },
-                                    {
-                                      "field": "email",
-                                      "label": "Email",
-                                      "columnType": "field",
-                                      "_expanded": false
-                                    },
-                                    {
-                                      "field": "membershipDate",
-                                      "label": "MembershipDate",
-                                      "columnType": "field",
-                                      "_expanded": false
-                                    },
-                                    {
-                                      "field": "hasLoans",
-                                      "label": "HasLoans",
-                                      "columnType": "lookup",
-                                      "lookupEntity": "class_uqlv53z09_mmx8q8jn",
-                                      "lookupField": "loanId",
-                                      "_expanded": false
-                                    }
-                                  ],
-                                  "id": "table-member-1",
-                                  "filter": ""
-                                },
-                                "chart-title": "Member List",
-                                "data-source": "class_q1bot8tqx_mmx8q8jn",
-                                "show-header": "true",
-                                "striped-rows": "false",
-                                "show-pagination": "true",
-                                "action-buttons": "true",
-                                "rows-per-page": "5",
-                                "filter": "",
-                                "columns": [
-                                  {
-                                    "field": "memberId",
-                                    "label": "MemberId",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "name",
-                                    "label": "Name",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "email",
-                                    "label": "Email",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "membershipDate",
-                                    "label": "MembershipDate",
-                                    "columnType": "field",
-                                    "_expanded": false
-                                  },
-                                  {
-                                    "field": "hasLoans",
-                                    "label": "HasLoans",
-                                    "columnType": "lookup",
-                                    "lookupEntity": "class_uqlv53z09_mmx8q8jn",
-                                    "lookupField": "loanId",
-                                    "_expanded": false
-                                  }
-                                ],
-                                "components": [
-                                  {
-                                    "type": "tbody",
-                                    "draggable": [
-                                      "table"
-                                    ],
-                                    "droppable": [
-                                      "tr"
-                                    ],
-                                    "components": [
-                                      {
-                                        "type": "row",
-                                        "draggable": [
-                                          "thead",
-                                          "tbody",
-                                          "tfoot"
-                                        ],
-                                        "droppable": [
-                                          "th",
-                                          "td"
-                                        ],
-                                        "classes": [
-                                          "row"
-                                        ],
-                                        "components": [
-                                          {
-                                            "type": "cell",
-                                            "draggable": [
-                                              "tr"
-                                            ],
-                                            "classes": [
-                                              "cell"
-                                            ]
-                                          }
-                                        ]
-                                      }
-                                    ]
-                                  }
-                                ],
-                                "chart-color": "#2c3e50"
-                              },
-                              {
-                                "attributes": {
-                                  "id": "ikozi"
-                                },
-                                "components": [
-                                  {
-                                    "type": "action-button",
-                                    "style": "",
-                                    "classes": [
-                                      "action-button-component"
-                                    ],
-                                    "attributes": {
-                                      "type": "button",
-                                      "data-button-label": "borrowBook",
-                                      "data-action-type": "run-method",
-                                      "data-method-class": "class_q1bot8tqx_mmx8q8jn",
-                                      "data-method": "method_kqpwu5ioo_mmx8q8jn",
-                                      "data-instance-source": "table-member-1",
-                                      "id": "iyunu"
-                                    },
-                                    "button-label": "borrowBook",
-                                    "action-type": "run-method",
-                                    "method-class": "class_q1bot8tqx_mmx8q8jn",
-                                    "method": "method_kqpwu5ioo_mmx8q8jn",
-                                    "instance-source": "table-member-1",
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "borrowBook"
-                                      }
-                                    ]
-                                  }
-                                ]
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "head": {
-                      "type": "head"
-                    },
-                    "docEl": {
-                      "tagName": "html"
-                    }
-                  },
-                  "id": "BKF87stjNQqguFBB"
-                }
-              ],
-              "id": "page-member-1",
-              "route_path": "/member"
-            },
-            {
-              "name": "Loan",
-              "frames": [
-                {
-                  "component": {
-                    "type": "wrapper",
-                    "stylable": [
-                      "background",
-                      "background-color",
-                      "background-image",
-                      "background-repeat",
-                      "background-attachment",
-                      "background-position",
-                      "background-size"
-                    ],
-                    "components": [
-                      {
-                        "attributes": {
-                          "id": "ik8p7"
-                        },
-                        "components": [
-                          {
-                            "tagName": "nav",
-                            "attributes": {
-                              "id": "i6r1f"
-                            },
-                            "components": [
-                              {
-                                "tagName": "h2",
-                                "type": "text",
-                                "attributes": {
-                                  "id": "i8v3j"
-                                },
-                                "components": [
-                                  {
-                                    "type": "textnode",
-                                    "content": "BESSER"
-                                  }
-                                ]
-                              },
-                              {
-                                "attributes": {
-                                  "id": "i8c5f"
-                                },
-                                "components": [
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/book",
-                                      "id": "ig1sk"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Book"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/member",
-                                      "id": "iidip"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Member"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/loan",
-                                      "id": "iu7gh"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Loan"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/author",
-                                      "id": "ikz5x"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Author"
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "type": "text",
-                                "attributes": {
-                                  "id": "iv043"
-                                },
-                                "components": [
-                                  {
-                                    "type": "textnode",
-                                    "content": "\u00a9 2026 BESSER. All rights reserved."
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "tagName": "main",
-                            "attributes": {
-                              "id": "i8hzd"
-                            },
-                            "components": [
-                              {
-                                "tagName": "h1",
-                                "type": "text",
-                                "attributes": {
-                                  "id": "ibctl"
-                                },
-                                "components": [
-                                  {
-                                    "type": "textnode",
-                                    "content": "Loan"
-                                  }
-                                ]
-                              },
-                              {
-                                "tagName": "p",
-                                "type": "text",
-                                "attributes": {
-                                  "id": "imrm2"
-                                },
-                                "components": [
-                                  {
-                                    "type": "textnode",
-                                    "content": "Manage Loan data"
-                                  }
-                                ]
-                              },
-                              {
-                                "type": "table",
-                                "style": "",
-                                "attributes": {
-                                  "chart-color": "#2c3e50",
-                                  "chart-title": "Loan List",
-                                  "data-source": "class_uqlv53z09_mmx8q8jn",
-                                  "show-header": "true",
-                                  "striped-rows": "false",
-                                  "show-pagination": "true",
-                                  "rows-per-page": "5",
-                                  "action-buttons": "true",
-                                  "columns": [
-                                    {
-                                      "field": "loanId",
-                                      "label": "LoanId",
-                                      "columnType": "field",
-                                      "_expanded": false
-                                    },
-                                    {
-                                      "field": "loanDate",
-                                      "label": "LoanDate",
+                                      "field": "description",
+                                      "label": "Description",
                                       "columnType": "field",
                                       "_expanded": false
                                     },
@@ -3152,33 +2471,35 @@
                                       "_expanded": false
                                     },
                                     {
-                                      "field": "returnDate",
-                                      "label": "ReturnDate",
+                                      "field": "status",
+                                      "label": "Status",
                                       "columnType": "field",
                                       "_expanded": false
                                     },
                                     {
-                                      "field": "Member",
-                                      "label": "Member",
-                                      "columnType": "lookup",
-                                      "lookupEntity": "class_q1bot8tqx_mmx8q8jn",
-                                      "lookupField": "memberId",
+                                      "field": "priority",
+                                      "label": "Priority",
+                                      "columnType": "field",
                                       "_expanded": false
                                     },
                                     {
-                                      "field": "Book",
-                                      "label": "Book",
-                                      "columnType": "lookup",
-                                      "lookupEntity": "class_ykryfaoj0_mmx8q8jn",
-                                      "lookupField": "title",
+                                      "field": "createdAt",
+                                      "label": "CreatedAt",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "updatedAt",
+                                      "label": "UpdatedAt",
+                                      "columnType": "field",
                                       "_expanded": false
                                     }
                                   ],
-                                  "id": "table-loan-2",
+                                  "id": "table-task-0",
                                   "filter": ""
                                 },
-                                "chart-title": "Loan List",
-                                "data-source": "class_uqlv53z09_mmx8q8jn",
+                                "chart-title": "Task List",
+                                "data-source": "class_6iw73zhwg_mnpqc1gv_mpz",
                                 "show-header": "true",
                                 "striped-rows": "false",
                                 "show-pagination": "true",
@@ -3187,14 +2508,20 @@
                                 "filter": "",
                                 "columns": [
                                   {
-                                    "field": "loanId",
-                                    "label": "LoanId",
+                                    "field": "taskId",
+                                    "label": "TaskId",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
                                   {
-                                    "field": "loanDate",
-                                    "label": "LoanDate",
+                                    "field": "title",
+                                    "label": "Title",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "description",
+                                    "label": "Description",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -3205,25 +2532,27 @@
                                     "_expanded": false
                                   },
                                   {
-                                    "field": "returnDate",
-                                    "label": "ReturnDate",
+                                    "field": "status",
+                                    "label": "Status",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
                                   {
-                                    "field": "Member",
-                                    "label": "Member",
-                                    "columnType": "lookup",
-                                    "lookupEntity": "class_q1bot8tqx_mmx8q8jn",
-                                    "lookupField": "memberId",
+                                    "field": "priority",
+                                    "label": "Priority",
+                                    "columnType": "field",
                                     "_expanded": false
                                   },
                                   {
-                                    "field": "Book",
-                                    "label": "Book",
-                                    "columnType": "lookup",
-                                    "lookupEntity": "class_ykryfaoj0_mmx8q8jn",
-                                    "lookupField": "title",
+                                    "field": "createdAt",
+                                    "label": "CreatedAt",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "updatedAt",
+                                    "label": "UpdatedAt",
+                                    "columnType": "field",
                                     "_expanded": false
                                   }
                                 ],
@@ -3270,7 +2599,7 @@
                               },
                               {
                                 "attributes": {
-                                  "id": "iehla"
+                                  "id": "iaz3q"
                                 },
                                 "components": [
                                   {
@@ -3281,22 +2610,22 @@
                                     ],
                                     "attributes": {
                                       "type": "button",
-                                      "data-button-label": "returnBook",
+                                      "data-button-label": "markComplete",
                                       "data-action-type": "run-method",
-                                      "data-method-class": "class_uqlv53z09_mmx8q8jn",
-                                      "data-method": "method_i1tafiiqg_mmx8q8jn",
-                                      "data-instance-source": "table-loan-2",
-                                      "id": "irg4z"
+                                      "data-method-class": "class_6iw73zhwg_mnpqc1gv_mpz",
+                                      "data-method": "method_jav30jdte_mnpqc1gw_9w3",
+                                      "data-instance-source": "table-task-0",
+                                      "id": "ij5lx"
                                     },
-                                    "button-label": "returnBook",
+                                    "button-label": "markComplete",
                                     "action-type": "run-method",
-                                    "method-class": "class_uqlv53z09_mmx8q8jn",
-                                    "method": "method_i1tafiiqg_mmx8q8jn",
-                                    "instance-source": "table-loan-2",
+                                    "method-class": "class_6iw73zhwg_mnpqc1gv_mpz",
+                                    "method": "method_jav30jdte_mnpqc1gw_9w3",
+                                    "instance-source": "table-task-0",
                                     "components": [
                                       {
                                         "type": "textnode",
-                                        "content": "returnBook"
+                                        "content": "markComplete"
                                       }
                                     ]
                                   }
@@ -3314,14 +2643,14 @@
                       "tagName": "html"
                     }
                   },
-                  "id": "wc1zrMlBbUmj2ok0"
+                  "id": "3EGvlMaT2dUf984p"
                 }
               ],
-              "id": "page-loan-2",
-              "route_path": "/loan"
+              "id": "page-task-0",
+              "route_path": "/task"
             },
             {
-              "name": "Author",
+              "name": "List",
               "frames": [
                 {
                   "component": {
@@ -3338,20 +2667,20 @@
                     "components": [
                       {
                         "attributes": {
-                          "id": "i6zxw"
+                          "id": "i9ahh"
                         },
                         "components": [
                           {
                             "tagName": "nav",
                             "attributes": {
-                              "id": "i26it"
+                              "id": "ijapr"
                             },
                             "components": [
                               {
                                 "tagName": "h2",
                                 "type": "text",
                                 "attributes": {
-                                  "id": "inu6e"
+                                  "id": "i0036"
                                 },
                                 "components": [
                                   {
@@ -3362,58 +2691,32 @@
                               },
                               {
                                 "attributes": {
-                                  "id": "ih1g4k"
+                                  "id": "i7iuk"
                                 },
                                 "components": [
                                   {
                                     "type": "link",
                                     "attributes": {
-                                      "href": "/book",
-                                      "id": "ial9ca"
+                                      "href": "/task",
+                                      "id": "i4kfz"
                                     },
                                     "components": [
                                       {
                                         "type": "textnode",
-                                        "content": "Book"
+                                        "content": "Task"
                                       }
                                     ]
                                   },
                                   {
                                     "type": "link",
                                     "attributes": {
-                                      "href": "/member",
-                                      "id": "ixe1uh"
+                                      "href": "/list",
+                                      "id": "id32o"
                                     },
                                     "components": [
                                       {
                                         "type": "textnode",
-                                        "content": "Member"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/loan",
-                                      "id": "icicxy"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Loan"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "link",
-                                    "attributes": {
-                                      "href": "/author",
-                                      "id": "i32k4i"
-                                    },
-                                    "components": [
-                                      {
-                                        "type": "textnode",
-                                        "content": "Author"
+                                        "content": "List"
                                       }
                                     ]
                                   }
@@ -3422,7 +2725,7 @@
                               {
                                 "type": "text",
                                 "attributes": {
-                                  "id": "ieh2l3"
+                                  "id": "iiuol"
                                 },
                                 "components": [
                                   {
@@ -3436,19 +2739,19 @@
                           {
                             "tagName": "main",
                             "attributes": {
-                              "id": "i4vsof"
+                              "id": "ig5a7"
                             },
                             "components": [
                               {
                                 "tagName": "h1",
                                 "type": "text",
                                 "attributes": {
-                                  "id": "iq7v9x"
+                                  "id": "iham7"
                                 },
                                 "components": [
                                   {
                                     "type": "textnode",
-                                    "content": "Author"
+                                    "content": "List"
                                   }
                                 ]
                               },
@@ -3456,12 +2759,12 @@
                                 "tagName": "p",
                                 "type": "text",
                                 "attributes": {
-                                  "id": "ig56df"
+                                  "id": "i9knt"
                                 },
                                 "components": [
                                   {
                                     "type": "textnode",
-                                    "content": "Manage Author data"
+                                    "content": "Manage List data"
                                   }
                                 ]
                               },
@@ -3470,8 +2773,8 @@
                                 "style": "",
                                 "attributes": {
                                   "chart-color": "#2c3e50",
-                                  "chart-title": "Author List",
-                                  "data-source": "class_uplm9kfij_mmx8q8jn",
+                                  "chart-title": "List List",
+                                  "data-source": "class_qegr99f2i_mnpqlas7_cps",
                                   "show-header": "true",
                                   "striped-rows": "false",
                                   "show-pagination": "true",
@@ -3479,8 +2782,8 @@
                                   "action-buttons": "true",
                                   "columns": [
                                     {
-                                      "field": "authorId",
-                                      "label": "AuthorId",
+                                      "field": "listId",
+                                      "label": "ListId",
                                       "columnType": "field",
                                       "_expanded": false
                                     },
@@ -3491,25 +2794,23 @@
                                       "_expanded": false
                                     },
                                     {
-                                      "field": "biography",
-                                      "label": "Biography",
+                                      "field": "createdAt",
+                                      "label": "CreatedAt",
                                       "columnType": "field",
                                       "_expanded": false
                                     },
                                     {
-                                      "field": "Book",
-                                      "label": "Book",
-                                      "columnType": "lookup",
-                                      "lookupEntity": "class_ykryfaoj0_mmx8q8jn",
-                                      "lookupField": "title",
+                                      "field": "updatedAt",
+                                      "label": "UpdatedAt",
+                                      "columnType": "field",
                                       "_expanded": false
                                     }
                                   ],
-                                  "id": "table-author-3",
+                                  "id": "table-list-1",
                                   "filter": ""
                                 },
-                                "chart-title": "Author List",
-                                "data-source": "class_uplm9kfij_mmx8q8jn",
+                                "chart-title": "List List",
+                                "data-source": "class_qegr99f2i_mnpqlas7_cps",
                                 "show-header": "true",
                                 "striped-rows": "false",
                                 "show-pagination": "true",
@@ -3518,8 +2819,8 @@
                                 "filter": "",
                                 "columns": [
                                   {
-                                    "field": "authorId",
-                                    "label": "AuthorId",
+                                    "field": "listId",
+                                    "label": "ListId",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -3530,17 +2831,15 @@
                                     "_expanded": false
                                   },
                                   {
-                                    "field": "biography",
-                                    "label": "Biography",
+                                    "field": "createdAt",
+                                    "label": "CreatedAt",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
                                   {
-                                    "field": "Book",
-                                    "label": "Book",
-                                    "columnType": "lookup",
-                                    "lookupEntity": "class_ykryfaoj0_mmx8q8jn",
-                                    "lookupField": "title",
+                                    "field": "updatedAt",
+                                    "label": "UpdatedAt",
+                                    "columnType": "field",
                                     "_expanded": false
                                   }
                                 ],
@@ -3597,17 +2896,17 @@
                       "tagName": "html"
                     }
                   },
-                  "id": "zWIcNgmj3X309kwy"
+                  "id": "w1al6g25pnIo2yfr"
                 }
               ],
-              "id": "page-author-3",
-              "route_path": "/author"
+              "id": "page-list-1",
+              "route_path": "/list"
             }
           ],
           "styles": [
             {
               "selectors": [
-                "#intvr"
+                "#i0jaw"
               ],
               "style": {
                 "margin-top": "0",
@@ -3618,7 +2917,7 @@
             },
             {
               "selectors": [
-                "#i1nz3"
+                "#iv61o"
               ],
               "style": {
                 "color": "white",
@@ -3632,7 +2931,7 @@
             },
             {
               "selectors": [
-                "#i37xj"
+                "#i3cpq"
               ],
               "style": {
                 "color": "white",
@@ -3646,35 +2945,7 @@
             },
             {
               "selectors": [
-                "#ir7dq"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#iwesu"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#iwkaa"
+                "#iv798"
               ],
               "style": {
                 "display": "flex",
@@ -3684,7 +2955,7 @@
             },
             {
               "selectors": [
-                "#i03lf"
+                "#i6js5"
               ],
               "style": {
                 "margin-top": "auto",
@@ -3697,21 +2968,26 @@
             },
             {
               "selectors": [
-                "#iuhpn"
+                "#izb5q"
               ],
               "style": {
                 "width": "250px",
-                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
                 "color": "white",
                 "padding": "20px",
                 "overflow-y": "auto",
                 "display": "flex",
-                "flex-direction": "column"
+                "flex-direction": "column",
+                "__background-type": "color",
+                "background-repeat": "repeat",
+                "background-position": "left top",
+                "background-attachment": "scroll",
+                "background-size": "auto",
+                "background-image": "linear-gradient(#4d3083 0%, #4d3083 100%)"
               }
             },
             {
               "selectors": [
-                "#ihks7"
+                "#i8ba5"
               ],
               "style": {
                 "margin-top": "0",
@@ -3722,7 +2998,7 @@
             },
             {
               "selectors": [
-                "#ika4h"
+                "#ifybu"
               ],
               "style": {
                 "color": "#666",
@@ -3731,7 +3007,7 @@
             },
             {
               "selectors": [
-                "#table-book-0"
+                "#table-task-0"
               ],
               "style": {
                 "width": "100%",
@@ -3740,7 +3016,7 @@
             },
             {
               "selectors": [
-                "#iugyz"
+                "#ij5lx"
               ],
               "style": {
                 "display": "inline-flex",
@@ -3761,7 +3037,7 @@
             },
             {
               "selectors": [
-                "#irlwo"
+                "#iaz3q"
               ],
               "style": {
                 "margin-top": "20px",
@@ -3772,7 +3048,7 @@
             },
             {
               "selectors": [
-                "#i8ec5"
+                "#ibl4t"
               ],
               "style": {
                 "flex": "1",
@@ -3783,7 +3059,7 @@
             },
             {
               "selectors": [
-                "#i1dlb"
+                "#ippfu"
               ],
               "style": {
                 "display": "flex",
@@ -3793,7 +3069,7 @@
             },
             {
               "selectors": [
-                "#ix5yh"
+                "#i0036"
               ],
               "style": {
                 "margin-top": "0",
@@ -3804,7 +3080,7 @@
             },
             {
               "selectors": [
-                "#iy9yj"
+                "#i4kfz"
               ],
               "style": {
                 "color": "white",
@@ -3818,7 +3094,7 @@
             },
             {
               "selectors": [
-                "#iurh4"
+                "#id32o"
               ],
               "style": {
                 "color": "white",
@@ -3832,35 +3108,7 @@
             },
             {
               "selectors": [
-                "#iktzi"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#ikoun"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#ixbjm"
+                "#i7iuk"
               ],
               "style": {
                 "display": "flex",
@@ -3870,7 +3118,7 @@
             },
             {
               "selectors": [
-                "#imzzt"
+                "#iiuol"
               ],
               "style": {
                 "margin-top": "auto",
@@ -3883,7 +3131,7 @@
             },
             {
               "selectors": [
-                "#is5yx"
+                "#ijapr"
               ],
               "style": {
                 "width": "250px",
@@ -3897,7 +3145,7 @@
             },
             {
               "selectors": [
-                "#ijxnc"
+                "#iham7"
               ],
               "style": {
                 "margin-top": "0",
@@ -3908,7 +3156,7 @@
             },
             {
               "selectors": [
-                "#igg8f"
+                "#i9knt"
               ],
               "style": {
                 "color": "#666",
@@ -3917,7 +3165,7 @@
             },
             {
               "selectors": [
-                "#table-member-1"
+                "#table-list-1"
               ],
               "style": {
                 "width": "100%",
@@ -3926,39 +3174,7 @@
             },
             {
               "selectors": [
-                "#iyunu"
-              ],
-              "style": {
-                "display": "inline-flex",
-                "align-items": "center",
-                "padding": "6px 14px",
-                "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
-                "color": "#fff",
-                "text-decoration": "none",
-                "border-radius": "4px",
-                "font-size": "13px",
-                "font-weight": "600",
-                "letter-spacing": "0.01em",
-                "cursor": "pointer",
-                "border": "none",
-                "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
-                "transition": "background 0.2s"
-              }
-            },
-            {
-              "selectors": [
-                "#ikozi"
-              ],
-              "style": {
-                "margin-top": "20px",
-                "display": "flex",
-                "gap": "10px",
-                "flex-wrap": "wrap"
-              }
-            },
-            {
-              "selectors": [
-                "#iovel"
+                "#ig5a7"
               ],
               "style": {
                 "flex": "1",
@@ -3969,347 +3185,7 @@
             },
             {
               "selectors": [
-                "#i2ufk"
-              ],
-              "style": {
-                "display": "flex",
-                "height": "100vh",
-                "font-family": "Arial, sans-serif"
-              }
-            },
-            {
-              "selectors": [
-                "#i8v3j"
-              ],
-              "style": {
-                "margin-top": "0",
-                "font-size": "24px",
-                "margin-bottom": "30px",
-                "font-weight": "bold"
-              }
-            },
-            {
-              "selectors": [
-                "#ig1sk"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#iidip"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#iu7gh"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "rgba(255,255,255,0.2)",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#ikz5x"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#i8c5f"
-              ],
-              "style": {
-                "display": "flex",
-                "flex-direction": "column",
-                "flex": "1"
-              }
-            },
-            {
-              "selectors": [
-                "#iv043"
-              ],
-              "style": {
-                "margin-top": "auto",
-                "padding-top": "20px",
-                "border-top": "1px solid rgba(255,255,255,0.2)",
-                "font-size": "11px",
-                "opacity": "0.8",
-                "text-align": "center"
-              }
-            },
-            {
-              "selectors": [
-                "#i6r1f"
-              ],
-              "style": {
-                "width": "250px",
-                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
-                "color": "white",
-                "padding": "20px",
-                "overflow-y": "auto",
-                "display": "flex",
-                "flex-direction": "column"
-              }
-            },
-            {
-              "selectors": [
-                "#ibctl"
-              ],
-              "style": {
-                "margin-top": "0",
-                "color": "#333",
-                "font-size": "32px",
-                "margin-bottom": "10px"
-              }
-            },
-            {
-              "selectors": [
-                "#imrm2"
-              ],
-              "style": {
-                "color": "#666",
-                "margin-bottom": "30px"
-              }
-            },
-            {
-              "selectors": [
-                "#table-loan-2"
-              ],
-              "style": {
-                "width": "100%",
-                "min-height": "400px"
-              }
-            },
-            {
-              "selectors": [
-                "#irg4z"
-              ],
-              "style": {
-                "display": "inline-flex",
-                "align-items": "center",
-                "padding": "6px 14px",
-                "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
-                "color": "#fff",
-                "text-decoration": "none",
-                "border-radius": "4px",
-                "font-size": "13px",
-                "font-weight": "600",
-                "letter-spacing": "0.01em",
-                "cursor": "pointer",
-                "border": "none",
-                "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
-                "transition": "background 0.2s"
-              }
-            },
-            {
-              "selectors": [
-                "#iehla"
-              ],
-              "style": {
-                "margin-top": "20px",
-                "display": "flex",
-                "gap": "10px",
-                "flex-wrap": "wrap"
-              }
-            },
-            {
-              "selectors": [
-                "#i8hzd"
-              ],
-              "style": {
-                "flex": "1",
-                "padding": "40px",
-                "overflow-y": "auto",
-                "background": "#f5f5f5"
-              }
-            },
-            {
-              "selectors": [
-                "#ik8p7"
-              ],
-              "style": {
-                "display": "flex",
-                "height": "100vh",
-                "font-family": "Arial, sans-serif"
-              }
-            },
-            {
-              "selectors": [
-                "#inu6e"
-              ],
-              "style": {
-                "margin-top": "0",
-                "font-size": "24px",
-                "margin-bottom": "30px",
-                "font-weight": "bold"
-              }
-            },
-            {
-              "selectors": [
-                "#ial9ca"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#ixe1uh"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#icicxy"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "transparent",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#i32k4i"
-              ],
-              "style": {
-                "color": "white",
-                "text-decoration": "none",
-                "padding": "10px 15px",
-                "display": "block",
-                "background": "rgba(255,255,255,0.2)",
-                "border-radius": "4px",
-                "margin-bottom": "5px"
-              }
-            },
-            {
-              "selectors": [
-                "#ih1g4k"
-              ],
-              "style": {
-                "display": "flex",
-                "flex-direction": "column",
-                "flex": "1"
-              }
-            },
-            {
-              "selectors": [
-                "#ieh2l3"
-              ],
-              "style": {
-                "margin-top": "auto",
-                "padding-top": "20px",
-                "border-top": "1px solid rgba(255,255,255,0.2)",
-                "font-size": "11px",
-                "opacity": "0.8",
-                "text-align": "center"
-              }
-            },
-            {
-              "selectors": [
-                "#i26it"
-              ],
-              "style": {
-                "width": "250px",
-                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
-                "color": "white",
-                "padding": "20px",
-                "overflow-y": "auto",
-                "display": "flex",
-                "flex-direction": "column"
-              }
-            },
-            {
-              "selectors": [
-                "#iq7v9x"
-              ],
-              "style": {
-                "margin-top": "0",
-                "color": "#333",
-                "font-size": "32px",
-                "margin-bottom": "10px"
-              }
-            },
-            {
-              "selectors": [
-                "#ig56df"
-              ],
-              "style": {
-                "color": "#666",
-                "margin-bottom": "30px"
-              }
-            },
-            {
-              "selectors": [
-                "#table-author-3"
-              ],
-              "style": {
-                "width": "100%",
-                "min-height": "400px"
-              }
-            },
-            {
-              "selectors": [
-                "#i4vsof"
-              ],
-              "style": {
-                "flex": "1",
-                "padding": "40px",
-                "overflow-y": "auto",
-                "background": "#f5f5f5"
-              }
-            },
-            {
-              "selectors": [
-                "#i6zxw"
+                "#i9ahh"
               ],
               "style": {
                 "display": "flex",
@@ -4322,7 +3198,7 @@
           "symbols": [],
           "version": "0.21.13"
         },
-        "lastUpdate": "2026-03-19T09:28:51.681Z",
+        "lastUpdate": "2026-04-08T15:25:14.857Z",
         "references": {
           "ClassDiagram": "45470338-05da-48f7-a675-ec673e3b7f6c",
           "AgentDiagram": "94db67b6-068d-4e7d-891e-ee8bda83f136"
@@ -4334,13 +3210,50 @@
         "id": "6141a111-8560-44cc-9ebe-584d9cf61d59",
         "title": "Quantum Circuit",
         "model": {
-          "cols": [],
+          "cols": [
+            [
+              "H",
+              "H"
+            ],
+            [
+              "\u2022",
+              "Z"
+            ],
+            [
+              "H",
+              "H"
+            ],
+            [
+              "X",
+              "X"
+            ],
+            [
+              "\u2022",
+              "Z"
+            ],
+            [
+              "X",
+              "X"
+            ],
+            [
+              "H",
+              "H"
+            ],
+            [
+              "Measure",
+              "Measure"
+            ]
+          ],
           "gates": [],
           "gateMetadata": {},
+          "initialStates": [
+            "|0\u27e9",
+            "|0\u27e9"
+          ],
           "classicalBitCount": 0,
           "version": "1.0.0"
         },
-        "lastUpdate": "2026-03-19T12:22:33.733Z"
+        "lastUpdate": "2026-04-08T15:20:14.839Z"
       }
     ]
   },

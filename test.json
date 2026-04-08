@@ -5,50 +5,261 @@
   "description": "New project",
   "owner": "User",
   "createdAt": "2026-03-19T08:43:43.324Z",
-  "currentDiagramType": "ClassDiagram",
+  "currentDiagramType": "GUINoCodeDiagram",
   "diagrams": {
     "ClassDiagram": [
       {
         "id": "45470338-05da-48f7-a675-ec673e3b7f6c",
-        "title": "Class Diagram",
+        "title": "to-do schema",
         "model": {
           "version": "3.0.0",
           "type": "ClassDiagram",
           "size": {
-            "width": 900,
-            "height": 500
+            "width": 1480,
+            "height": 1000
           },
           "interactive": {
             "elements": {},
             "relationships": {}
           },
           "elements": {
-            "6d6a4928-d020-41ed-a1f9-1ee067464515": {
-              "id": "6d6a4928-d020-41ed-a1f9-1ee067464515",
+            "class_6iw73zhwg_mnpqc1gv_mpz": {
+              "id": "class_6iw73zhwg_mnpqc1gv_mpz",
               "name": "Task",
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -430,
-                "y": -230,
-                "width": 160,
-                "height": 70
+                "x": 80,
+                "y": -20,
+                "width": 220,
+                "height": 265
               },
               "attributes": [
-                "6d576154-e85d-4ba0-acdc-56b66c8e49f1"
+                "attr_dsm8kyeci_mnpqc1gw_zqx",
+                "attr_c0xc2pens_mnpqc1gw_ech",
+                "attr_qb5gb6h44_mnpqc1gw_yn9",
+                "attr_n4slgqpu7_mnpqc1gw_5kq",
+                "attr_axawggadz_mnpqc1gw_pd4",
+                "attr_32lj3pdaw_mnpqc1gw_t3v",
+                "attr_wej8y4m9j_mnpqc1gw_6m8",
+                "attr_nukwsd5dh_mnpqc1gw_lwb"
+              ],
+              "methods": [
+                "method_jav30jdte_mnpqc1gw_9w3"
+              ]
+            },
+            "attr_dsm8kyeci_mnpqc1gw_zqx": {
+              "id": "attr_dsm8kyeci_mnpqc1gw_zqx",
+              "name": "taskId",
+              "type": "ClassAttribute",
+              "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+              "bounds": {
+                "x": 80.5,
+                "y": 20.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "defaultValue": null
+            },
+            "attr_c0xc2pens_mnpqc1gw_ech": {
+              "id": "attr_c0xc2pens_mnpqc1gw_ech",
+              "name": "title",
+              "type": "ClassAttribute",
+              "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+              "bounds": {
+                "x": 80.5,
+                "y": 45.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_qb5gb6h44_mnpqc1gw_yn9": {
+              "id": "attr_qb5gb6h44_mnpqc1gw_yn9",
+              "name": "description",
+              "type": "ClassAttribute",
+              "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+              "bounds": {
+                "x": 80.5,
+                "y": 70.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": true,
+              "isDerived": false
+            },
+            "attr_n4slgqpu7_mnpqc1gw_5kq": {
+              "id": "attr_n4slgqpu7_mnpqc1gw_5kq",
+              "name": "dueDate",
+              "type": "ClassAttribute",
+              "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+              "bounds": {
+                "x": 80.5,
+                "y": 95.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": true,
+              "isDerived": false
+            },
+            "attr_axawggadz_mnpqc1gw_pd4": {
+              "id": "attr_axawggadz_mnpqc1gw_pd4",
+              "name": "status",
+              "type": "ClassAttribute",
+              "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+              "bounds": {
+                "x": 80.5,
+                "y": 120.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "TaskStatus",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "defaultValue": "Pending"
+            },
+            "attr_32lj3pdaw_mnpqc1gw_t3v": {
+              "id": "attr_32lj3pdaw_mnpqc1gw_t3v",
+              "name": "priority",
+              "type": "ClassAttribute",
+              "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+              "bounds": {
+                "x": 80.5,
+                "y": 145.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "TaskPriority",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "defaultValue": "Medium"
+            },
+            "attr_wej8y4m9j_mnpqc1gw_6m8": {
+              "id": "attr_wej8y4m9j_mnpqc1gw_6m8",
+              "name": "createdAt",
+              "type": "ClassAttribute",
+              "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+              "bounds": {
+                "x": 80.5,
+                "y": 170.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_nukwsd5dh_mnpqc1gw_lwb": {
+              "id": "attr_nukwsd5dh_mnpqc1gw_lwb",
+              "name": "updatedAt",
+              "type": "ClassAttribute",
+              "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+              "bounds": {
+                "x": 80.5,
+                "y": 195.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "method_jav30jdte_mnpqc1gw_9w3": {
+              "id": "method_jav30jdte_mnpqc1gw_9w3",
+              "name": "markComplete()",
+              "type": "ClassMethod",
+              "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+              "bounds": {
+                "x": 80.5,
+                "y": 220.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "class_amp631r2z_mnpqc1gw_f6r": {
+              "id": "class_amp631r2z_mnpqc1gw_f6r",
+              "name": "TaskStatus",
+              "type": "Enumeration",
+              "owner": null,
+              "bounds": {
+                "x": 70,
+                "y": -360,
+                "width": 220,
+                "height": 150
+              },
+              "attributes": [
+                "attr_ea7dqqjka_mnpqc1gw_ga1",
+                "attr_s08dsxzen_mnpqc1gw_9am",
+                "attr_bqmgzqqku_mnpqc1gw_l13",
+                "attr_f8eo8n1wv_mnpqc1gw_6wk"
               ],
               "methods": []
             },
-            "6d576154-e85d-4ba0-acdc-56b66c8e49f1": {
-              "id": "6d576154-e85d-4ba0-acdc-56b66c8e49f1",
-              "name": "attribute",
+            "attr_ea7dqqjka_mnpqc1gw_ga1": {
+              "id": "attr_ea7dqqjka_mnpqc1gw_ga1",
+              "name": "Pending",
               "type": "ClassAttribute",
-              "owner": "6d6a4928-d020-41ed-a1f9-1ee067464515",
+              "owner": "class_amp631r2z_mnpqc1gw_f6r",
               "bounds": {
-                "x": -429.5,
-                "y": -189.5,
-                "width": 159,
-                "height": 30
+                "x": 70.5,
+                "y": -309.5,
+                "width": 219,
+                "height": 25
               },
               "code": "",
               "visibility": "public",
@@ -58,12 +269,318 @@
               "quantumCircuitId": "",
               "isOptional": false,
               "isDerived": false
+            },
+            "attr_s08dsxzen_mnpqc1gw_9am": {
+              "id": "attr_s08dsxzen_mnpqc1gw_9am",
+              "name": "InProgress",
+              "type": "ClassAttribute",
+              "owner": "class_amp631r2z_mnpqc1gw_f6r",
+              "bounds": {
+                "x": 70.5,
+                "y": -284.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_bqmgzqqku_mnpqc1gw_l13": {
+              "id": "attr_bqmgzqqku_mnpqc1gw_l13",
+              "name": "Completed",
+              "type": "ClassAttribute",
+              "owner": "class_amp631r2z_mnpqc1gw_f6r",
+              "bounds": {
+                "x": 70.5,
+                "y": -259.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_f8eo8n1wv_mnpqc1gw_6wk": {
+              "id": "attr_f8eo8n1wv_mnpqc1gw_6wk",
+              "name": "Cancelled",
+              "type": "ClassAttribute",
+              "owner": "class_amp631r2z_mnpqc1gw_f6r",
+              "bounds": {
+                "x": 70.5,
+                "y": -234.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "class_96igzxlci_mnpqc1gw_coa": {
+              "id": "class_96igzxlci_mnpqc1gw_coa",
+              "name": "TaskPriority",
+              "type": "Enumeration",
+              "owner": null,
+              "bounds": {
+                "x": -720,
+                "y": -480,
+                "width": 220,
+                "height": 150
+              },
+              "attributes": [
+                "attr_ex5hmwcte_mnpqc1gw_hfg",
+                "attr_dao85clw1_mnpqc1gw_8vv",
+                "attr_emliu4v2n_mnpqc1gw_u3w",
+                "attr_u4qm2pxs4_mnpqc1gw_b48"
+              ],
+              "methods": []
+            },
+            "attr_ex5hmwcte_mnpqc1gw_hfg": {
+              "id": "attr_ex5hmwcte_mnpqc1gw_hfg",
+              "name": "NonImpNonUrgent",
+              "type": "ClassAttribute",
+              "owner": "class_96igzxlci_mnpqc1gw_coa",
+              "bounds": {
+                "x": -719.5,
+                "y": -429.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_dao85clw1_mnpqc1gw_8vv": {
+              "id": "attr_dao85clw1_mnpqc1gw_8vv",
+              "name": "NonImpUrgent",
+              "type": "ClassAttribute",
+              "owner": "class_96igzxlci_mnpqc1gw_coa",
+              "bounds": {
+                "x": -719.5,
+                "y": -404.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_emliu4v2n_mnpqc1gw_u3w": {
+              "id": "attr_emliu4v2n_mnpqc1gw_u3w",
+              "name": "ImpNonUrgent",
+              "type": "ClassAttribute",
+              "owner": "class_96igzxlci_mnpqc1gw_coa",
+              "bounds": {
+                "x": -719.5,
+                "y": -379.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_u4qm2pxs4_mnpqc1gw_b48": {
+              "id": "attr_u4qm2pxs4_mnpqc1gw_b48",
+              "name": "ImpUrgent",
+              "type": "ClassAttribute",
+              "owner": "class_96igzxlci_mnpqc1gw_coa",
+              "bounds": {
+                "x": -719.5,
+                "y": -354.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "class_qegr99f2i_mnpqlas7_cps": {
+              "id": "class_qegr99f2i_mnpqlas7_cps",
+              "name": "List",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -510,
+                "y": 60,
+                "width": 220,
+                "height": 140
+              },
+              "attributes": [
+                "attr_juinu5sse_mnpqo8jv_llx",
+                "attr_w2vplnipc_mnpqo8jv_tiv",
+                "attr_6qozliwgc_mnpqo8jw_3sd",
+                "attr_ix9x6aemi_mnpqo8jw_63x"
+              ],
+              "methods": []
+            },
+            "attr_juinu5sse_mnpqo8jv_llx": {
+              "id": "attr_juinu5sse_mnpqo8jv_llx",
+              "name": "listId",
+              "type": "ClassAttribute",
+              "owner": "class_qegr99f2i_mnpqlas7_cps",
+              "bounds": {
+                "x": -509.5,
+                "y": 100.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_w2vplnipc_mnpqo8jv_tiv": {
+              "id": "attr_w2vplnipc_mnpqo8jv_tiv",
+              "name": "name",
+              "type": "ClassAttribute",
+              "owner": "class_qegr99f2i_mnpqlas7_cps",
+              "bounds": {
+                "x": -509.5,
+                "y": 125.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_6qozliwgc_mnpqo8jw_3sd": {
+              "id": "attr_6qozliwgc_mnpqo8jw_3sd",
+              "name": "createdAt",
+              "type": "ClassAttribute",
+              "owner": "class_qegr99f2i_mnpqlas7_cps",
+              "bounds": {
+                "x": -509.5,
+                "y": 150.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_ix9x6aemi_mnpqo8jw_63x": {
+              "id": "attr_ix9x6aemi_mnpqo8jw_63x",
+              "name": "updatedAt",
+              "type": "ClassAttribute",
+              "owner": "class_qegr99f2i_mnpqlas7_cps",
+              "bounds": {
+                "x": -509.5,
+                "y": 175.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
             }
           },
-          "relationships": {},
+          "relationships": {
+            "rel_lw5890idt_mnpqlas7_tmn": {
+              "id": "rel_lw5890idt_mnpqlas7_tmn",
+              "name": "",
+              "type": "ClassComposition",
+              "owner": null,
+              "bounds": {
+                "x": -290,
+                "y": 120,
+                "width": 370,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 370,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Left",
+                "element": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Right",
+                "element": "class_qegr99f2i_mnpqlas7_cps",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            }
+          },
           "assessments": {}
         },
-        "lastUpdate": "2026-04-08T07:27:53.025Z"
+        "lastUpdate": "2026-04-08T10:24:50.928Z"
       }
     ],
     "ObjectDiagram": [
@@ -74,18 +591,1163 @@
           "version": "3.0.0",
           "type": "ObjectDiagram",
           "size": {
-            "width": 1400,
-            "height": 740
+            "width": 600,
+            "height": 560
           },
-          "elements": {},
-          "relationships": {},
           "interactive": {
             "elements": {},
             "relationships": {}
           },
-          "assessments": {}
+          "elements": {
+            "object_31lrqzyus_mnpr3y2d_jhj": {
+              "id": "object_31lrqzyus_mnpr3y2d_jhj",
+              "name": "list1: List",
+              "type": "ObjectName",
+              "owner": null,
+              "bounds": {
+                "x": -120,
+                "y": -220,
+                "width": 240,
+                "height": 160
+              },
+              "attributes": [
+                "attr_mct21ixie_mnpr3y2d_72y",
+                "attr_j45bakt5j_mnpr3y2d_s8n",
+                "attr_b8w41xq3s_mnpr3y2d_3w8",
+                "attr_cuwlbvpsl_mnpr3y2d_q0u"
+              ],
+              "methods": [],
+              "classId": "class_qegr99f2i_mnpqlas7_cps"
+            },
+            "attr_mct21ixie_mnpr3y2d_72y": {
+              "id": "attr_mct21ixie_mnpr3y2d_72y",
+              "name": "listId = 101",
+              "type": "ObjectAttribute",
+              "owner": "object_31lrqzyus_mnpr3y2d_jhj",
+              "bounds": {
+                "x": -119.5,
+                "y": -179.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_juinu5sse_mnpqo8jv_llx"
+            },
+            "attr_j45bakt5j_mnpr3y2d_s8n": {
+              "id": "attr_j45bakt5j_mnpr3y2d_s8n",
+              "name": "name = Urgent Tasks",
+              "type": "ObjectAttribute",
+              "owner": "object_31lrqzyus_mnpr3y2d_jhj",
+              "bounds": {
+                "x": -119.5,
+                "y": -149.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_w2vplnipc_mnpqo8jv_tiv"
+            },
+            "attr_b8w41xq3s_mnpr3y2d_3w8": {
+              "id": "attr_b8w41xq3s_mnpr3y2d_3w8",
+              "name": "createdAt = 2024-06-01",
+              "type": "ObjectAttribute",
+              "owner": "object_31lrqzyus_mnpr3y2d_jhj",
+              "bounds": {
+                "x": -119.5,
+                "y": -119.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_6qozliwgc_mnpqo8jw_3sd"
+            },
+            "attr_cuwlbvpsl_mnpr3y2d_q0u": {
+              "id": "attr_cuwlbvpsl_mnpr3y2d_q0u",
+              "name": "updatedAt = 2024-06-02",
+              "type": "ObjectAttribute",
+              "owner": "object_31lrqzyus_mnpr3y2d_jhj",
+              "bounds": {
+                "x": -119.5,
+                "y": -89.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_ix9x6aemi_mnpqo8jw_63x"
+            },
+            "object_jdoma9dhx_mnpr3y2d_sny": {
+              "id": "object_jdoma9dhx_mnpr3y2d_sny",
+              "name": "task1: Task",
+              "type": "ObjectName",
+              "owner": null,
+              "bounds": {
+                "x": -240,
+                "y": -20,
+                "width": 240,
+                "height": 280
+              },
+              "attributes": [
+                "attr_dkmccujva_mnpr3y2d_tnx",
+                "attr_4mnqqvixu_mnpr3y2d_agy",
+                "attr_uu9ys4ewb_mnpr3y2d_s8r",
+                "attr_vlreb88dp_mnpr3y2d_qn3",
+                "attr_pqy9s1q0y_mnpr3y2d_eac",
+                "attr_zw2485u8s_mnpr3y2d_g3c",
+                "attr_3ax0huxh5_mnpr3y2d_zax",
+                "attr_u21ln2i1z_mnpr3y2d_ap1"
+              ],
+              "methods": [],
+              "classId": "class_6iw73zhwg_mnpqc1gv_mpz"
+            },
+            "attr_dkmccujva_mnpr3y2d_tnx": {
+              "id": "attr_dkmccujva_mnpr3y2d_tnx",
+              "name": "taskId = 201",
+              "type": "ObjectAttribute",
+              "owner": "object_jdoma9dhx_mnpr3y2d_sny",
+              "bounds": {
+                "x": -239.5,
+                "y": 20.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_dsm8kyeci_mnpqc1gw_zqx"
+            },
+            "attr_4mnqqvixu_mnpr3y2d_agy": {
+              "id": "attr_4mnqqvixu_mnpr3y2d_agy",
+              "name": "title = Finish report",
+              "type": "ObjectAttribute",
+              "owner": "object_jdoma9dhx_mnpr3y2d_sny",
+              "bounds": {
+                "x": -239.5,
+                "y": 50.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_c0xc2pens_mnpqc1gw_ech"
+            },
+            "attr_uu9ys4ewb_mnpr3y2d_s8r": {
+              "id": "attr_uu9ys4ewb_mnpr3y2d_s8r",
+              "name": "description = Complete the quarterly financial report",
+              "type": "ObjectAttribute",
+              "owner": "object_jdoma9dhx_mnpr3y2d_sny",
+              "bounds": {
+                "x": -239.5,
+                "y": 80.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_qb5gb6h44_mnpqc1gw_yn9"
+            },
+            "attr_vlreb88dp_mnpr3y2d_qn3": {
+              "id": "attr_vlreb88dp_mnpr3y2d_qn3",
+              "name": "dueDate = 2024-06-05",
+              "type": "ObjectAttribute",
+              "owner": "object_jdoma9dhx_mnpr3y2d_sny",
+              "bounds": {
+                "x": -239.5,
+                "y": 110.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_n4slgqpu7_mnpqc1gw_5kq"
+            },
+            "attr_pqy9s1q0y_mnpr3y2d_eac": {
+              "id": "attr_pqy9s1q0y_mnpr3y2d_eac",
+              "name": "status = Urgent",
+              "type": "ObjectAttribute",
+              "owner": "object_jdoma9dhx_mnpr3y2d_sny",
+              "bounds": {
+                "x": -239.5,
+                "y": 140.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_axawggadz_mnpqc1gw_pd4"
+            },
+            "attr_zw2485u8s_mnpr3y2d_g3c": {
+              "id": "attr_zw2485u8s_mnpr3y2d_g3c",
+              "name": "priority = Important",
+              "type": "ObjectAttribute",
+              "owner": "object_jdoma9dhx_mnpr3y2d_sny",
+              "bounds": {
+                "x": -239.5,
+                "y": 170.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_32lj3pdaw_mnpqc1gw_t3v"
+            },
+            "attr_3ax0huxh5_mnpr3y2d_zax": {
+              "id": "attr_3ax0huxh5_mnpr3y2d_zax",
+              "name": "createdAt = 2024-06-01",
+              "type": "ObjectAttribute",
+              "owner": "object_jdoma9dhx_mnpr3y2d_sny",
+              "bounds": {
+                "x": -239.5,
+                "y": 200.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_wej8y4m9j_mnpqc1gw_6m8"
+            },
+            "attr_u21ln2i1z_mnpr3y2d_ap1": {
+              "id": "attr_u21ln2i1z_mnpr3y2d_ap1",
+              "name": "updatedAt = 2024-06-02",
+              "type": "ObjectAttribute",
+              "owner": "object_jdoma9dhx_mnpr3y2d_sny",
+              "bounds": {
+                "x": -239.5,
+                "y": 230.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_nukwsd5dh_mnpqc1gw_lwb"
+            },
+            "object_0ho4qkeio_mnpr3y2d_60t": {
+              "id": "object_0ho4qkeio_mnpr3y2d_60t",
+              "name": "task2: Task",
+              "type": "ObjectName",
+              "owner": null,
+              "bounds": {
+                "x": 40,
+                "y": -20,
+                "width": 240,
+                "height": 280
+              },
+              "attributes": [
+                "attr_7dgmo4onn_mnpr3y2d_eqq",
+                "attr_3eyhy3ixh_mnpr3y2d_6g6",
+                "attr_fqrsjnkwh_mnpr3y2d_kib",
+                "attr_kyfnwtd3a_mnpr3y2d_ntd",
+                "attr_p2mr4k6yo_mnpr3y2d_jbj",
+                "attr_59lq0eww0_mnpr3y2d_e1a",
+                "attr_ny68y4hqp_mnpr3y2d_rla",
+                "attr_xo413juz4_mnpr3y2d_lr5"
+              ],
+              "methods": [],
+              "classId": "class_6iw73zhwg_mnpqc1gv_mpz"
+            },
+            "attr_7dgmo4onn_mnpr3y2d_eqq": {
+              "id": "attr_7dgmo4onn_mnpr3y2d_eqq",
+              "name": "taskId = 202",
+              "type": "ObjectAttribute",
+              "owner": "object_0ho4qkeio_mnpr3y2d_60t",
+              "bounds": {
+                "x": 40.5,
+                "y": 20.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_dsm8kyeci_mnpqc1gw_zqx"
+            },
+            "attr_3eyhy3ixh_mnpr3y2d_6g6": {
+              "id": "attr_3eyhy3ixh_mnpr3y2d_6g6",
+              "name": "title = Prepare presentation",
+              "type": "ObjectAttribute",
+              "owner": "object_0ho4qkeio_mnpr3y2d_60t",
+              "bounds": {
+                "x": 40.5,
+                "y": 50.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_c0xc2pens_mnpqc1gw_ech"
+            },
+            "attr_fqrsjnkwh_mnpr3y2d_kib": {
+              "id": "attr_fqrsjnkwh_mnpr3y2d_kib",
+              "name": "description = Slides for the upcoming client meeting",
+              "type": "ObjectAttribute",
+              "owner": "object_0ho4qkeio_mnpr3y2d_60t",
+              "bounds": {
+                "x": 40.5,
+                "y": 80.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_qb5gb6h44_mnpqc1gw_yn9"
+            },
+            "attr_kyfnwtd3a_mnpr3y2d_ntd": {
+              "id": "attr_kyfnwtd3a_mnpr3y2d_ntd",
+              "name": "dueDate = 2024-06-06",
+              "type": "ObjectAttribute",
+              "owner": "object_0ho4qkeio_mnpr3y2d_60t",
+              "bounds": {
+                "x": 40.5,
+                "y": 110.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_n4slgqpu7_mnpqc1gw_5kq"
+            },
+            "attr_p2mr4k6yo_mnpr3y2d_jbj": {
+              "id": "attr_p2mr4k6yo_mnpr3y2d_jbj",
+              "name": "status = Urgent",
+              "type": "ObjectAttribute",
+              "owner": "object_0ho4qkeio_mnpr3y2d_60t",
+              "bounds": {
+                "x": 40.5,
+                "y": 140.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_axawggadz_mnpqc1gw_pd4"
+            },
+            "attr_59lq0eww0_mnpr3y2d_e1a": {
+              "id": "attr_59lq0eww0_mnpr3y2d_e1a",
+              "name": "priority = Important",
+              "type": "ObjectAttribute",
+              "owner": "object_0ho4qkeio_mnpr3y2d_60t",
+              "bounds": {
+                "x": 40.5,
+                "y": 170.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_32lj3pdaw_mnpqc1gw_t3v"
+            },
+            "attr_ny68y4hqp_mnpr3y2d_rla": {
+              "id": "attr_ny68y4hqp_mnpr3y2d_rla",
+              "name": "createdAt = 2024-06-01",
+              "type": "ObjectAttribute",
+              "owner": "object_0ho4qkeio_mnpr3y2d_60t",
+              "bounds": {
+                "x": 40.5,
+                "y": 200.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_wej8y4m9j_mnpqc1gw_6m8"
+            },
+            "attr_xo413juz4_mnpr3y2d_lr5": {
+              "id": "attr_xo413juz4_mnpr3y2d_lr5",
+              "name": "updatedAt = 2024-06-02",
+              "type": "ObjectAttribute",
+              "owner": "object_0ho4qkeio_mnpr3y2d_60t",
+              "bounds": {
+                "x": 40.5,
+                "y": 230.5,
+                "width": 239,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "attributeId": "attr_nukwsd5dh_mnpqc1gw_lwb"
+            }
+          },
+          "relationships": {
+            "link_z0h97mg88_mnpr3y2d_o75": {
+              "id": "link_z0h97mg88_mnpr3y2d_o75",
+              "name": "relatedTo",
+              "type": "ObjectLink",
+              "owner": null,
+              "bounds": {
+                "x": -60,
+                "y": -60,
+                "width": 1,
+                "height": 40
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 40
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "object_jdoma9dhx_mnpr3y2d_sny",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "object_31lrqzyus_mnpr3y2d_jhj",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "link_szu1mymn9_mnpr3y2d_omy": {
+              "id": "link_szu1mymn9_mnpr3y2d_omy",
+              "name": "relatedTo",
+              "type": "ObjectLink",
+              "owner": null,
+              "bounds": {
+                "x": 80,
+                "y": -60,
+                "width": 1,
+                "height": 40
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 40
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "object_0ho4qkeio_mnpr3y2d_60t",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "object_31lrqzyus_mnpr3y2d_jhj",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            }
+          },
+          "assessments": {},
+          "referenceDiagramData": {
+            "version": "3.0.0",
+            "type": "ClassDiagram",
+            "size": {
+              "width": 1480,
+              "height": 1000
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "class_6iw73zhwg_mnpqc1gv_mpz": {
+                "id": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "name": "Task",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": 80,
+                  "y": -20,
+                  "width": 220,
+                  "height": 265
+                },
+                "attributes": [
+                  "attr_dsm8kyeci_mnpqc1gw_zqx",
+                  "attr_c0xc2pens_mnpqc1gw_ech",
+                  "attr_qb5gb6h44_mnpqc1gw_yn9",
+                  "attr_n4slgqpu7_mnpqc1gw_5kq",
+                  "attr_axawggadz_mnpqc1gw_pd4",
+                  "attr_32lj3pdaw_mnpqc1gw_t3v",
+                  "attr_wej8y4m9j_mnpqc1gw_6m8",
+                  "attr_nukwsd5dh_mnpqc1gw_lwb"
+                ],
+                "methods": [
+                  "method_jav30jdte_mnpqc1gw_9w3"
+                ]
+              },
+              "attr_dsm8kyeci_mnpqc1gw_zqx": {
+                "id": "attr_dsm8kyeci_mnpqc1gw_zqx",
+                "name": "taskId",
+                "type": "ClassAttribute",
+                "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "bounds": {
+                  "x": 80.5,
+                  "y": 20.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "defaultValue": null
+              },
+              "attr_c0xc2pens_mnpqc1gw_ech": {
+                "id": "attr_c0xc2pens_mnpqc1gw_ech",
+                "name": "title",
+                "type": "ClassAttribute",
+                "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "bounds": {
+                  "x": 80.5,
+                  "y": 45.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_qb5gb6h44_mnpqc1gw_yn9": {
+                "id": "attr_qb5gb6h44_mnpqc1gw_yn9",
+                "name": "description",
+                "type": "ClassAttribute",
+                "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "bounds": {
+                  "x": 80.5,
+                  "y": 70.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": true,
+                "isDerived": false
+              },
+              "attr_n4slgqpu7_mnpqc1gw_5kq": {
+                "id": "attr_n4slgqpu7_mnpqc1gw_5kq",
+                "name": "dueDate",
+                "type": "ClassAttribute",
+                "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "bounds": {
+                  "x": 80.5,
+                  "y": 95.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": true,
+                "isDerived": false
+              },
+              "attr_axawggadz_mnpqc1gw_pd4": {
+                "id": "attr_axawggadz_mnpqc1gw_pd4",
+                "name": "status",
+                "type": "ClassAttribute",
+                "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "bounds": {
+                  "x": 80.5,
+                  "y": 120.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "TaskStatus",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "defaultValue": "Pending"
+              },
+              "attr_32lj3pdaw_mnpqc1gw_t3v": {
+                "id": "attr_32lj3pdaw_mnpqc1gw_t3v",
+                "name": "priority",
+                "type": "ClassAttribute",
+                "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "bounds": {
+                  "x": 80.5,
+                  "y": 145.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "TaskPriority",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "defaultValue": "Medium"
+              },
+              "attr_wej8y4m9j_mnpqc1gw_6m8": {
+                "id": "attr_wej8y4m9j_mnpqc1gw_6m8",
+                "name": "createdAt",
+                "type": "ClassAttribute",
+                "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "bounds": {
+                  "x": 80.5,
+                  "y": 170.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_nukwsd5dh_mnpqc1gw_lwb": {
+                "id": "attr_nukwsd5dh_mnpqc1gw_lwb",
+                "name": "updatedAt",
+                "type": "ClassAttribute",
+                "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "bounds": {
+                  "x": 80.5,
+                  "y": 195.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "method_jav30jdte_mnpqc1gw_9w3": {
+                "id": "method_jav30jdte_mnpqc1gw_9w3",
+                "name": "markComplete()",
+                "type": "ClassMethod",
+                "owner": "class_6iw73zhwg_mnpqc1gv_mpz",
+                "bounds": {
+                  "x": 80.5,
+                  "y": 220.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "any",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "class_amp631r2z_mnpqc1gw_f6r": {
+                "id": "class_amp631r2z_mnpqc1gw_f6r",
+                "name": "TaskStatus",
+                "type": "Enumeration",
+                "owner": null,
+                "bounds": {
+                  "x": 70,
+                  "y": -360,
+                  "width": 220,
+                  "height": 150
+                },
+                "attributes": [
+                  "attr_ea7dqqjka_mnpqc1gw_ga1",
+                  "attr_s08dsxzen_mnpqc1gw_9am",
+                  "attr_bqmgzqqku_mnpqc1gw_l13",
+                  "attr_f8eo8n1wv_mnpqc1gw_6wk"
+                ],
+                "methods": []
+              },
+              "attr_ea7dqqjka_mnpqc1gw_ga1": {
+                "id": "attr_ea7dqqjka_mnpqc1gw_ga1",
+                "name": "Pending",
+                "type": "ClassAttribute",
+                "owner": "class_amp631r2z_mnpqc1gw_f6r",
+                "bounds": {
+                  "x": 70.5,
+                  "y": -309.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_s08dsxzen_mnpqc1gw_9am": {
+                "id": "attr_s08dsxzen_mnpqc1gw_9am",
+                "name": "InProgress",
+                "type": "ClassAttribute",
+                "owner": "class_amp631r2z_mnpqc1gw_f6r",
+                "bounds": {
+                  "x": 70.5,
+                  "y": -284.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_bqmgzqqku_mnpqc1gw_l13": {
+                "id": "attr_bqmgzqqku_mnpqc1gw_l13",
+                "name": "Completed",
+                "type": "ClassAttribute",
+                "owner": "class_amp631r2z_mnpqc1gw_f6r",
+                "bounds": {
+                  "x": 70.5,
+                  "y": -259.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_f8eo8n1wv_mnpqc1gw_6wk": {
+                "id": "attr_f8eo8n1wv_mnpqc1gw_6wk",
+                "name": "Cancelled",
+                "type": "ClassAttribute",
+                "owner": "class_amp631r2z_mnpqc1gw_f6r",
+                "bounds": {
+                  "x": 70.5,
+                  "y": -234.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "class_96igzxlci_mnpqc1gw_coa": {
+                "id": "class_96igzxlci_mnpqc1gw_coa",
+                "name": "TaskPriority",
+                "type": "Enumeration",
+                "owner": null,
+                "bounds": {
+                  "x": -720,
+                  "y": -480,
+                  "width": 220,
+                  "height": 150
+                },
+                "attributes": [
+                  "attr_ex5hmwcte_mnpqc1gw_hfg",
+                  "attr_dao85clw1_mnpqc1gw_8vv",
+                  "attr_emliu4v2n_mnpqc1gw_u3w",
+                  "attr_u4qm2pxs4_mnpqc1gw_b48"
+                ],
+                "methods": []
+              },
+              "attr_ex5hmwcte_mnpqc1gw_hfg": {
+                "id": "attr_ex5hmwcte_mnpqc1gw_hfg",
+                "name": "NonImpNonUrgent",
+                "type": "ClassAttribute",
+                "owner": "class_96igzxlci_mnpqc1gw_coa",
+                "bounds": {
+                  "x": -719.5,
+                  "y": -429.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_dao85clw1_mnpqc1gw_8vv": {
+                "id": "attr_dao85clw1_mnpqc1gw_8vv",
+                "name": "NonImpUrgent",
+                "type": "ClassAttribute",
+                "owner": "class_96igzxlci_mnpqc1gw_coa",
+                "bounds": {
+                  "x": -719.5,
+                  "y": -404.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_emliu4v2n_mnpqc1gw_u3w": {
+                "id": "attr_emliu4v2n_mnpqc1gw_u3w",
+                "name": "ImpNonUrgent",
+                "type": "ClassAttribute",
+                "owner": "class_96igzxlci_mnpqc1gw_coa",
+                "bounds": {
+                  "x": -719.5,
+                  "y": -379.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_u4qm2pxs4_mnpqc1gw_b48": {
+                "id": "attr_u4qm2pxs4_mnpqc1gw_b48",
+                "name": "ImpUrgent",
+                "type": "ClassAttribute",
+                "owner": "class_96igzxlci_mnpqc1gw_coa",
+                "bounds": {
+                  "x": -719.5,
+                  "y": -354.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "class_qegr99f2i_mnpqlas7_cps": {
+                "id": "class_qegr99f2i_mnpqlas7_cps",
+                "name": "List",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": -510,
+                  "y": 60,
+                  "width": 220,
+                  "height": 140
+                },
+                "attributes": [
+                  "attr_juinu5sse_mnpqo8jv_llx",
+                  "attr_w2vplnipc_mnpqo8jv_tiv",
+                  "attr_6qozliwgc_mnpqo8jw_3sd",
+                  "attr_ix9x6aemi_mnpqo8jw_63x"
+                ],
+                "methods": []
+              },
+              "attr_juinu5sse_mnpqo8jv_llx": {
+                "id": "attr_juinu5sse_mnpqo8jv_llx",
+                "name": "listId",
+                "type": "ClassAttribute",
+                "owner": "class_qegr99f2i_mnpqlas7_cps",
+                "bounds": {
+                  "x": -509.5,
+                  "y": 100.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_w2vplnipc_mnpqo8jv_tiv": {
+                "id": "attr_w2vplnipc_mnpqo8jv_tiv",
+                "name": "name",
+                "type": "ClassAttribute",
+                "owner": "class_qegr99f2i_mnpqlas7_cps",
+                "bounds": {
+                  "x": -509.5,
+                  "y": 125.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_6qozliwgc_mnpqo8jw_3sd": {
+                "id": "attr_6qozliwgc_mnpqo8jw_3sd",
+                "name": "createdAt",
+                "type": "ClassAttribute",
+                "owner": "class_qegr99f2i_mnpqlas7_cps",
+                "bounds": {
+                  "x": -509.5,
+                  "y": 150.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              },
+              "attr_ix9x6aemi_mnpqo8jw_63x": {
+                "id": "attr_ix9x6aemi_mnpqo8jw_63x",
+                "name": "updatedAt",
+                "type": "ClassAttribute",
+                "owner": "class_qegr99f2i_mnpqlas7_cps",
+                "bounds": {
+                  "x": -509.5,
+                  "y": 175.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "isOptional": false,
+                "isDerived": false
+              }
+            },
+            "relationships": {
+              "rel_lw5890idt_mnpqlas7_tmn": {
+                "id": "rel_lw5890idt_mnpqlas7_tmn",
+                "name": "",
+                "type": "ClassComposition",
+                "owner": null,
+                "bounds": {
+                  "x": -290,
+                  "y": 120,
+                  "width": 370,
+                  "height": 48
+                },
+                "path": [
+                  {
+                    "x": 370,
+                    "y": 10
+                  },
+                  {
+                    "x": 0,
+                    "y": 10
+                  }
+                ],
+                "source": {
+                  "direction": "Left",
+                  "element": "class_6iw73zhwg_mnpqc1gv_mpz",
+                  "multiplicity": "0..*",
+                  "role": "",
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Right",
+                  "element": "class_qegr99f2i_mnpqlas7_cps",
+                  "multiplicity": "0..1",
+                  "role": "",
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              }
+            },
+            "assessments": {}
+          }
         },
-        "lastUpdate": "2026-03-19T08:43:43.324Z",
+        "lastUpdate": "2026-04-08T08:58:48.616Z",
         "references": {
           "ClassDiagram": "45470338-05da-48f7-a675-ec673e3b7f6c"
         }
@@ -121,569 +1783,365 @@
           "version": "3.0.0",
           "type": "AgentDiagram",
           "size": {
-            "width": 2300,
-            "height": 1540
+            "width": 1760,
+            "height": 1260
           },
           "interactive": {
             "elements": {},
             "relationships": {}
           },
           "elements": {
-            "initial_72th6ksf3_mm9b38u1": {
-              "id": "initial_72th6ksf3_mm9b38u1",
+            "initial_c1tomomdy_mnpt4iaj_ngd": {
+              "id": "initial_c1tomomdy_mnpt4iaj_ngd",
               "name": "",
               "type": "StateInitialNode",
               "owner": null,
               "bounds": {
-                "x": -1120,
-                "y": -620,
+                "x": -600,
+                "y": 0,
                 "width": 45,
                 "height": 45
               }
             },
-            "intent_jtmr4apyg_mm9b38u1": {
-              "id": "intent_jtmr4apyg_mm9b38u1",
-              "name": "OpeningHours",
+            "intent_mvfc7lb74_mnpt4iaj_0fc": {
+              "id": "intent_mvfc7lb74_mnpt4iaj_0fc",
+              "name": "AskOpenTasks",
               "type": "AgentIntent",
               "owner": null,
               "bounds": {
-                "x": -680,
-                "y": -100,
-                "width": 410,
+                "x": -860,
+                "y": -310,
+                "width": 330,
                 "height": 190
               },
               "bodies": [
-                "intentBody_jn9sy9wl2_mm9b38u1",
-                "intentBody_61dj9fnk0_mm9b38u1",
-                "intentBody_b8jkj9t1s_mm9b38u1",
-                "intentBody_jl9eozt0r_mm9b38u1"
-              ],
-              "intent_description": "Asking for the opening hours of the library."
-            },
-            "intentBody_jn9sy9wl2_mm9b38u1": {
-              "id": "intentBody_jn9sy9wl2_mm9b38u1",
-              "name": "what are the opening hours?",
-              "type": "AgentIntentBody",
-              "owner": "intent_jtmr4apyg_mm9b38u1",
-              "bounds": {
-                "x": -679.5,
-                "y": -29.5,
-                "width": 409,
-                "height": 30
-              }
-            },
-            "intentBody_61dj9fnk0_mm9b38u1": {
-              "id": "intentBody_61dj9fnk0_mm9b38u1",
-              "name": "library hours",
-              "type": "AgentIntentBody",
-              "owner": "intent_jtmr4apyg_mm9b38u1",
-              "bounds": {
-                "x": -679.5,
-                "y": 0.5,
-                "width": 409,
-                "height": 30
-              }
-            },
-            "intentBody_b8jkj9t1s_mm9b38u1": {
-              "id": "intentBody_b8jkj9t1s_mm9b38u1",
-              "name": "when do you open?",
-              "type": "AgentIntentBody",
-              "owner": "intent_jtmr4apyg_mm9b38u1",
-              "bounds": {
-                "x": -679.5,
-                "y": 30.5,
-                "width": 409,
-                "height": 30
-              }
-            },
-            "intentBody_jl9eozt0r_mm9b38u1": {
-              "id": "intentBody_jl9eozt0r_mm9b38u1",
-              "name": "hours of operation",
-              "type": "AgentIntentBody",
-              "owner": "intent_jtmr4apyg_mm9b38u1",
-              "bounds": {
-                "x": -679.5,
-                "y": 60.5,
-                "width": 409,
-                "height": 30
-              }
-            },
-            "intent_ggq3p9gv8_mm9b38u1": {
-              "id": "intent_ggq3p9gv8_mm9b38u1",
-              "name": "CheapestBook",
-              "type": "AgentIntent",
-              "owner": null,
-              "bounds": {
-                "x": -250,
-                "y": -100,
-                "width": 490,
-                "height": 130
-              },
-              "bodies": [
-                "intentBody_06wxt0vga_mm9b38u1",
-                "intentBody_14tgxxf1f_mm9b38u1",
-                "intentBody_j2ugmtuh8_mm9b38u1"
+                "intentBody_sorwyijs9_mnpt4iaj_wqm",
+                "intentBody_9gitdupd0_mnpt4iaj_ha3",
+                "intentBody_0aimeksca_mnpt4iaj_pt9",
+                "intentBody_k7hubwb8r_mnpt4iaj_eks",
+                "intentBody_ai5xvubxd_mnpt4iaj_gfs"
               ],
               "intent_description": ""
             },
-            "intentBody_06wxt0vga_mm9b38u1": {
-              "id": "intentBody_06wxt0vga_mm9b38u1",
-              "name": "how to get the title of the cheapest book of an author?",
+            "intentBody_sorwyijs9_mnpt4iaj_wqm": {
+              "id": "intentBody_sorwyijs9_mnpt4iaj_wqm",
+              "name": "How many tasks are still open?",
               "type": "AgentIntentBody",
-              "owner": "intent_ggq3p9gv8_mm9b38u1",
+              "owner": "intent_mvfc7lb74_mnpt4iaj_0fc",
               "bounds": {
-                "x": -249.5,
-                "y": -59.5,
-                "width": 489,
+                "x": -859.5,
+                "y": -269.5,
+                "width": 329,
                 "height": 30
               }
             },
-            "intentBody_14tgxxf1f_mm9b38u1": {
-              "id": "intentBody_14tgxxf1f_mm9b38u1",
-              "name": "I want to know the cheapest book",
+            "intentBody_9gitdupd0_mnpt4iaj_ha3": {
+              "id": "intentBody_9gitdupd0_mnpt4iaj_ha3",
+              "name": "Show me the open tasks count",
               "type": "AgentIntentBody",
-              "owner": "intent_ggq3p9gv8_mm9b38u1",
+              "owner": "intent_mvfc7lb74_mnpt4iaj_0fc",
               "bounds": {
-                "x": -249.5,
-                "y": -29.5,
-                "width": 489,
+                "x": -859.5,
+                "y": -239.5,
+                "width": 329,
                 "height": 30
               }
             },
-            "intentBody_j2ugmtuh8_mm9b38u1": {
-              "id": "intentBody_j2ugmtuh8_mm9b38u1",
-              "name": "which is the cheapest book?",
+            "intentBody_0aimeksca_mnpt4iaj_pt9": {
+              "id": "intentBody_0aimeksca_mnpt4iaj_pt9",
+              "name": "Number of open tasks",
               "type": "AgentIntentBody",
-              "owner": "intent_ggq3p9gv8_mm9b38u1",
+              "owner": "intent_mvfc7lb74_mnpt4iaj_0fc",
               "bounds": {
-                "x": -249.5,
-                "y": 0.5,
-                "width": 489,
+                "x": -859.5,
+                "y": -209.5,
+                "width": 329,
                 "height": 30
               }
             },
-            "intent_zuidaui0x_mm9b38u1": {
-              "id": "intent_zuidaui0x_mm9b38u1",
-              "name": "Contact",
+            "intentBody_k7hubwb8r_mnpt4iaj_eks": {
+              "id": "intentBody_k7hubwb8r_mnpt4iaj_eks",
+              "name": "Open tasks count",
+              "type": "AgentIntentBody",
+              "owner": "intent_mvfc7lb74_mnpt4iaj_0fc",
+              "bounds": {
+                "x": -859.5,
+                "y": -179.5,
+                "width": 329,
+                "height": 30
+              }
+            },
+            "intentBody_ai5xvubxd_mnpt4iaj_gfs": {
+              "id": "intentBody_ai5xvubxd_mnpt4iaj_gfs",
+              "name": "What tasks are still open?",
+              "type": "AgentIntentBody",
+              "owner": "intent_mvfc7lb74_mnpt4iaj_0fc",
+              "bounds": {
+                "x": -859.5,
+                "y": -149.5,
+                "width": 329,
+                "height": 30
+              }
+            },
+            "intent_a8pt4zslx_mnpt4iaj_aku": {
+              "id": "intent_a8pt4zslx_mnpt4iaj_aku",
+              "name": "SortByImportance",
               "type": "AgentIntent",
               "owner": null,
               "bounds": {
-                "x": -1130,
-                "y": -100,
-                "width": 430,
-                "height": 160
-              },
-              "bodies": [
-                "intentBody_9kmxc6vnq_mm9b38u1",
-                "intentBody_mxczpzj8h_mm9b38u1",
-                "intentBody_8yqem5n2k_mm9b38u1"
-              ],
-              "intent_description": "Requesting to speak with a human assistant."
-            },
-            "intentBody_9kmxc6vnq_mm9b38u1": {
-              "id": "intentBody_9kmxc6vnq_mm9b38u1",
-              "name": "I need to speak to someone",
-              "type": "AgentIntentBody",
-              "owner": "intent_zuidaui0x_mm9b38u1",
-              "bounds": {
-                "x": -1129.5,
-                "y": -29.5,
-                "width": 429,
-                "height": 30
-              }
-            },
-            "intentBody_mxczpzj8h_mm9b38u1": {
-              "id": "intentBody_mxczpzj8h_mm9b38u1",
-              "name": "contact support",
-              "type": "AgentIntentBody",
-              "owner": "intent_zuidaui0x_mm9b38u1",
-              "bounds": {
-                "x": -1129.5,
-                "y": 0.5,
-                "width": 429,
-                "height": 30
-              }
-            },
-            "intentBody_8yqem5n2k_mm9b38u1": {
-              "id": "intentBody_8yqem5n2k_mm9b38u1",
-              "name": "human assistance",
-              "type": "AgentIntentBody",
-              "owner": "intent_zuidaui0x_mm9b38u1",
-              "bounds": {
-                "x": -1129.5,
-                "y": 30.5,
-                "width": 429,
-                "height": 30
-              }
-            },
-            "state_zl3bfe65n_mm9b38u1": {
-              "id": "state_zl3bfe65n_mm9b38u1",
-              "name": "Idle",
-              "type": "AgentState",
-              "owner": null,
-              "bounds": {
-                "x": -480,
-                "y": -520,
-                "width": 260,
-                "height": 70
-              },
-              "bodies": [
-                "body_wybm5pc31_mm9b38u1"
-              ],
-              "fallbackBodies": []
-            },
-            "body_wybm5pc31_mm9b38u1": {
-              "id": "body_wybm5pc31_mm9b38u1",
-              "name": "How can I assist you today?",
-              "type": "AgentStateBody",
-              "owner": "state_zl3bfe65n_mm9b38u1",
-              "bounds": {
-                "x": -479.5,
-                "y": -479.5,
-                "width": 259,
-                "height": 30
-              },
-              "replyType": "text"
-            },
-            "state_j5tnma02n_mm9b38u1": {
-              "id": "state_j5tnma02n_mm9b38u1",
-              "name": "OpeningHoursState",
-              "type": "AgentState",
-              "owner": null,
-              "bounds": {
-                "x": 80,
-                "y": -530,
-                "width": 420,
-                "height": 100
-              },
-              "bodies": [
-                "body_a8ph8sxrt_mm9b38u1",
-                "fb1432f7-1778-4c8b-90f3-e471e86cec31"
-              ],
-              "fallbackBodies": []
-            },
-            "body_a8ph8sxrt_mm9b38u1": {
-              "id": "body_a8ph8sxrt_mm9b38u1",
-              "name": "Our opening hours are Monday\u2013Friday 9 AM\u20136 PM.",
-              "type": "AgentStateBody",
-              "owner": "state_j5tnma02n_mm9b38u1",
-              "bounds": {
-                "x": 80.5,
-                "y": -489.5,
-                "width": 419,
-                "height": 30
-              },
-              "replyType": "text"
-            },
-            "fb1432f7-1778-4c8b-90f3-e471e86cec31": {
-              "id": "fb1432f7-1778-4c8b-90f3-e471e86cec31",
-              "name": "Saturday 10 AM\u20134 PM. Closed Sunday.",
-              "type": "AgentStateBody",
-              "owner": "state_j5tnma02n_mm9b38u1",
-              "bounds": {
-                "x": 80.5,
-                "y": -459.5,
-                "width": 419,
-                "height": 30
-              },
-              "replyType": "text"
-            },
-            "state_krso67h8q_mm9b38u1": {
-              "id": "state_krso67h8q_mm9b38u1",
-              "name": "CheapestBookState",
-              "type": "AgentState",
-              "owner": null,
-              "bounds": {
-                "x": 80,
-                "y": -750,
-                "width": 420,
+                "x": -230,
+                "y": -270,
+                "width": 350,
                 "height": 190
               },
               "bodies": [
-                "body_38x5jthwr_mm9b38u1",
-                "body_0yl3shkws_mm9b38u1",
-                "b533e6a5-cc51-4f0d-a269-98bf81a02c31",
-                "7c8e27fb-8cce-4f3d-9cc4-19ef5a963b8a",
-                "b779be48-1bc4-4984-9274-00c91203552a"
+                "intentBody_nguzo7c09_mnpt4iaj_vij",
+                "intentBody_wvpltr4id_mnpt4iaj_wfk",
+                "intentBody_2atuwfk6v_mnpt4iaj_g4d",
+                "intentBody_7kn8c9swv_mnpt4iaj_4k2",
+                "intentBody_0kyys8ojv_mnpt4iaj_03b"
               ],
-              "fallbackBodies": []
+              "intent_description": ""
             },
-            "body_38x5jthwr_mm9b38u1": {
-              "id": "body_38x5jthwr_mm9b38u1",
-              "name": "To get the cheapest book of an author, follow these steps:",
-              "type": "AgentStateBody",
-              "owner": "state_krso67h8q_mm9b38u1",
+            "intentBody_nguzo7c09_mnpt4iaj_vij": {
+              "id": "intentBody_nguzo7c09_mnpt4iaj_vij",
+              "name": "Sort by importance",
+              "type": "AgentIntentBody",
+              "owner": "intent_a8pt4zslx_mnpt4iaj_aku",
               "bounds": {
-                "x": 80.5,
-                "y": -709.5,
-                "width": 419,
+                "x": -229.5,
+                "y": -229.5,
+                "width": 349,
                 "height": 30
-              },
-              "replyType": "text"
+              }
             },
-            "body_0yl3shkws_mm9b38u1": {
-              "id": "body_0yl3shkws_mm9b38u1",
-              "name": "1. Go to the Library tab.",
-              "type": "AgentStateBody",
-              "owner": "state_krso67h8q_mm9b38u1",
+            "intentBody_wvpltr4id_mnpt4iaj_wfk": {
+              "id": "intentBody_wvpltr4id_mnpt4iaj_wfk",
+              "name": "Order by importance",
+              "type": "AgentIntentBody",
+              "owner": "intent_a8pt4zslx_mnpt4iaj_aku",
               "bounds": {
-                "x": 80.5,
-                "y": -679.5,
-                "width": 419,
+                "x": -229.5,
+                "y": -199.5,
+                "width": 349,
                 "height": 30
-              },
-              "replyType": "text"
+              }
             },
-            "b533e6a5-cc51-4f0d-a269-98bf81a02c31": {
-              "id": "b533e6a5-cc51-4f0d-a269-98bf81a02c31",
-              "name": "2. In the table, select the library where you want to search.",
-              "type": "AgentStateBody",
-              "owner": "state_krso67h8q_mm9b38u1",
+            "intentBody_2atuwfk6v_mnpt4iaj_g4d": {
+              "id": "intentBody_2atuwfk6v_mnpt4iaj_g4d",
+              "name": "Show tasks sorted by importance",
+              "type": "AgentIntentBody",
+              "owner": "intent_a8pt4zslx_mnpt4iaj_aku",
               "bounds": {
-                "x": 80.5,
-                "y": -649.5,
-                "width": 419,
+                "x": -229.5,
+                "y": -169.5,
+                "width": 349,
                 "height": 30
-              },
-              "replyType": "text"
+              }
             },
-            "7c8e27fb-8cce-4f3d-9cc4-19ef5a963b8a": {
-              "id": "7c8e27fb-8cce-4f3d-9cc4-19ef5a963b8a",
-              "name": "3. Click on \u201cCheapest Book\u201d.",
-              "type": "AgentStateBody",
-              "owner": "state_krso67h8q_mm9b38u1",
+            "intentBody_7kn8c9swv_mnpt4iaj_4k2": {
+              "id": "intentBody_7kn8c9swv_mnpt4iaj_4k2",
+              "name": "Sort open tasks by importance",
+              "type": "AgentIntentBody",
+              "owner": "intent_a8pt4zslx_mnpt4iaj_aku",
               "bounds": {
-                "x": 80.5,
-                "y": -619.5,
-                "width": 419,
+                "x": -229.5,
+                "y": -139.5,
+                "width": 349,
                 "height": 30
-              },
-              "replyType": "text"
+              }
             },
-            "b779be48-1bc4-4984-9274-00c91203552a": {
-              "id": "b779be48-1bc4-4984-9274-00c91203552a",
-              "name": "4. Select an author and click \u201cExecute\u201d.",
-              "type": "AgentStateBody",
-              "owner": "state_krso67h8q_mm9b38u1",
+            "intentBody_0kyys8ojv_mnpt4iaj_03b": {
+              "id": "intentBody_0kyys8ojv_mnpt4iaj_03b",
+              "name": "Sort tasks by priority",
+              "type": "AgentIntentBody",
+              "owner": "intent_a8pt4zslx_mnpt4iaj_aku",
               "bounds": {
-                "x": 80.5,
-                "y": -589.5,
-                "width": 419,
+                "x": -229.5,
+                "y": -109.5,
+                "width": 349,
                 "height": 30
-              },
-              "replyType": "text"
+              }
             },
-            "state_5emfhqwzt_mm9b38u1": {
-              "id": "state_5emfhqwzt_mm9b38u1",
-              "name": "ContactState",
+            "intent_jon44nm2m_mnpt4iaj_5gp": {
+              "id": "intent_jon44nm2m_mnpt4iaj_5gp",
+              "name": "Greet",
+              "type": "AgentIntent",
+              "owner": null,
+              "bounds": {
+                "x": 230,
+                "y": -280,
+                "width": 230,
+                "height": 190
+              },
+              "bodies": [
+                "intentBody_vlo5m2n5p_mnpt4iaj_vxy",
+                "intentBody_i3t99ve05_mnpt4iaj_lnk",
+                "intentBody_stf4oxk5q_mnpt4iaj_txu",
+                "intentBody_5q1i7arlq_mnpt4iaj_bjj",
+                "intentBody_ydy4hcedh_mnpt4iaj_hmn"
+              ],
+              "intent_description": ""
+            },
+            "intentBody_vlo5m2n5p_mnpt4iaj_vxy": {
+              "id": "intentBody_vlo5m2n5p_mnpt4iaj_vxy",
+              "name": "Hello",
+              "type": "AgentIntentBody",
+              "owner": "intent_jon44nm2m_mnpt4iaj_5gp",
+              "bounds": {
+                "x": 230.5,
+                "y": -239.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "intentBody_i3t99ve05_mnpt4iaj_lnk": {
+              "id": "intentBody_i3t99ve05_mnpt4iaj_lnk",
+              "name": "Hi",
+              "type": "AgentIntentBody",
+              "owner": "intent_jon44nm2m_mnpt4iaj_5gp",
+              "bounds": {
+                "x": 230.5,
+                "y": -209.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "intentBody_stf4oxk5q_mnpt4iaj_txu": {
+              "id": "intentBody_stf4oxk5q_mnpt4iaj_txu",
+              "name": "Hey",
+              "type": "AgentIntentBody",
+              "owner": "intent_jon44nm2m_mnpt4iaj_5gp",
+              "bounds": {
+                "x": 230.5,
+                "y": -179.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "intentBody_5q1i7arlq_mnpt4iaj_bjj": {
+              "id": "intentBody_5q1i7arlq_mnpt4iaj_bjj",
+              "name": "Good morning",
+              "type": "AgentIntentBody",
+              "owner": "intent_jon44nm2m_mnpt4iaj_5gp",
+              "bounds": {
+                "x": 230.5,
+                "y": -149.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "intentBody_ydy4hcedh_mnpt4iaj_hmn": {
+              "id": "intentBody_ydy4hcedh_mnpt4iaj_hmn",
+              "name": "Good afternoon",
+              "type": "AgentIntentBody",
+              "owner": "intent_jon44nm2m_mnpt4iaj_5gp",
+              "bounds": {
+                "x": 230.5,
+                "y": -119.5,
+                "width": 229,
+                "height": 30
+              }
+            },
+            "state_ixglq0ebf_mnpt4iaj_mdg": {
+              "id": "state_ixglq0ebf_mnpt4iaj_mdg",
+              "name": "greetingState",
               "type": "AgentState",
               "owner": null,
               "bounds": {
-                "x": 80,
-                "y": -330,
+                "x": -610,
+                "y": 210,
                 "width": 420,
                 "height": 100
               },
               "bodies": [
-                "body_b6vkku4r1_mm9b38u1",
-                "body_8i8n5kbs0_mm9b38u1"
+                "body_dhy8kkaks_mnpt4iaj_gam"
               ],
-              "fallbackBodies": []
+              "fallbackBodies": [
+                "fallback_iuonyh767_mnpt4iaj_5ir"
+              ]
             },
-            "body_b6vkku4r1_mm9b38u1": {
-              "id": "body_b6vkku4r1_mm9b38u1",
-              "name": "You can contact a librarian at library@example.com or call +1 555-123-4567.",
+            "body_dhy8kkaks_mnpt4iaj_gam": {
+              "id": "body_dhy8kkaks_mnpt4iaj_gam",
+              "name": "Hello! How can I assist you with your tasks today?",
               "type": "AgentStateBody",
-              "owner": "state_5emfhqwzt_mm9b38u1",
+              "owner": "state_ixglq0ebf_mnpt4iaj_mdg",
               "bounds": {
-                "x": 80.5,
-                "y": -289.5,
+                "x": -609.5,
+                "y": 250.5,
                 "width": 419,
                 "height": 30
               },
               "replyType": "text"
             },
-            "body_8i8n5kbs0_mm9b38u1": {
-              "id": "body_8i8n5kbs0_mm9b38u1",
-              "name": "They will get back to you shortly.",
-              "type": "AgentStateBody",
-              "owner": "state_5emfhqwzt_mm9b38u1",
+            "fallback_iuonyh767_mnpt4iaj_5ir": {
+              "id": "fallback_iuonyh767_mnpt4iaj_5ir",
+              "name": "Sorry, I didn't understand that. You can ask me about your open tasks or say goodbye.",
+              "type": "AgentStateFallbackBody",
+              "owner": "state_ixglq0ebf_mnpt4iaj_mdg",
               "bounds": {
-                "x": 80.5,
-                "y": -259.5,
+                "x": -609.5,
+                "y": 280.5,
                 "width": 419,
                 "height": 30
               },
               "replyType": "text"
             },
-            "46badadf-e50d-481e-8246-3ba2393fce47": {
-              "id": "46badadf-e50d-481e-8246-3ba2393fce47",
-              "name": "Greeting",
+            "state_5mj0hzvkg_mnpt4iaj_9oc": {
+              "id": "state_5mj0hzvkg_mnpt4iaj_9oc",
+              "name": "openTasksCountState",
               "type": "AgentState",
               "owner": null,
               "bounds": {
-                "x": -980,
-                "y": -630,
-                "width": 340,
-                "height": 70
+                "x": -60,
+                "y": 280,
+                "width": 420,
+                "height": 40
               },
-              "bodies": [
-                "e3aad61a-89b4-46a6-8c16-6f80b861d717"
-              ],
+              "bodies": [],
               "fallbackBodies": []
             },
-            "e3aad61a-89b4-46a6-8c16-6f80b861d717": {
-              "id": "e3aad61a-89b4-46a6-8c16-6f80b861d717",
-              "name": "Welcome to the library support system!",
-              "type": "AgentStateBody",
-              "owner": "46badadf-e50d-481e-8246-3ba2393fce47",
-              "bounds": {
-                "x": -979.5,
-                "y": -589.5,
-                "width": 339,
-                "height": 30
-              },
-              "replyType": "text"
-            },
-            "0edea0d9-cfa4-48e4-ae68-dfd226aa9f13": {
-              "id": "0edea0d9-cfa4-48e4-ae68-dfd226aa9f13",
-              "name": "Other",
-              "type": "AgentIntent",
+            "state_o7ndlmzdg_mnpt4iaj_0cy": {
+              "id": "state_o7ndlmzdg_mnpt4iaj_0cy",
+              "name": "sortedTasksState",
+              "type": "AgentState",
               "owner": null,
               "bounds": {
-                "x": 260,
-                "y": -100,
-                "width": 250,
+                "x": -70,
+                "y": 540,
+                "width": 420,
                 "height": 70
               },
               "bodies": [],
-              "intent_description": "Any other question."
+              "fallbackBodies": [
+                "fallback_koku94no5_mnpt4iaj_and"
+              ]
+            },
+            "fallback_koku94no5_mnpt4iaj_and": {
+              "id": "fallback_koku94no5_mnpt4iaj_and",
+              "name": "Sorry, I didn't understand. You can ask about open tasks or say goodbye.",
+              "type": "AgentStateFallbackBody",
+              "owner": "state_o7ndlmzdg_mnpt4iaj_0cy",
+              "bounds": {
+                "x": -69.5,
+                "y": 580.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
             }
           },
           "relationships": {
-            "transition_ixdyt9fr7_mm9b38u1": {
-              "id": "transition_ixdyt9fr7_mm9b38u1",
+            "transition_dn0rsepuu_mnpt4iaj_l2u": {
+              "id": "transition_dn0rsepuu_mnpt4iaj_l2u",
               "name": "",
               "type": "AgentStateTransitionInit",
               "owner": null,
               "bounds": {
-                "x": -1075,
-                "y": -597.5,
-                "width": 95,
-                "height": 1
-              },
-              "path": [
-                {
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "x": 95,
-                  "y": 0
-                }
-              ],
-              "source": {
-                "direction": "Right",
-                "element": "initial_72th6ksf3_mm9b38u1"
-              },
-              "target": {
-                "direction": "Left",
-                "element": "46badadf-e50d-481e-8246-3ba2393fce47"
-              },
-              "isManuallyLayouted": false
-            },
-            "transition_x8h483xz2_mm9b38u1": {
-              "id": "transition_x8h483xz2_mm9b38u1",
-              "name": "",
-              "type": "AgentStateTransition",
-              "owner": null,
-              "bounds": {
-                "x": -220,
-                "y": -485,
-                "width": 300,
-                "height": 1
-              },
-              "path": [
-                {
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "x": 300,
-                  "y": 0
-                }
-              ],
-              "source": {
-                "direction": "Upright",
-                "element": "state_zl3bfe65n_mm9b38u1"
-              },
-              "target": {
-                "direction": "Upleft",
-                "element": "state_j5tnma02n_mm9b38u1"
-              },
-              "isManuallyLayouted": false,
-              "transitionType": "predefined",
-              "predefined": {
-                "predefinedType": "when_intent_matched",
-                "intentName": "OpeningHours"
-              },
-              "custom": {
-                "condition": []
-              }
-            },
-            "transition_53oz6z5cc_mm9b38u1": {
-              "id": "transition_53oz6z5cc_mm9b38u1",
-              "name": "",
-              "type": "AgentStateTransition",
-              "owner": null,
-              "bounds": {
-                "x": -285,
-                "y": -655,
-                "width": 365,
-                "height": 135
-              },
-              "path": [
-                {
-                  "x": 0,
-                  "y": 135
-                },
-                {
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "x": 365,
-                  "y": 0
-                }
-              ],
-              "source": {
-                "direction": "Topright",
-                "element": "state_zl3bfe65n_mm9b38u1"
-              },
-              "target": {
-                "direction": "Left",
-                "element": "state_krso67h8q_mm9b38u1"
-              },
-              "isManuallyLayouted": false,
-              "transitionType": "predefined",
-              "predefined": {
-                "predefinedType": "when_intent_matched",
-                "intentName": "CheapestBook"
-              },
-              "custom": {
-                "condition": []
-              }
-            },
-            "transition_jc0mk7kpn_mm9b38u1": {
-              "id": "transition_jc0mk7kpn_mm9b38u1",
-              "name": "",
-              "type": "AgentStateTransition",
-              "owner": null,
-              "bounds": {
-                "x": -285,
-                "y": -450,
-                "width": 365,
-                "height": 170
+                "x": -577.5,
+                "y": 45,
+                "width": 1,
+                "height": 165
               },
               "path": [
                 {
@@ -692,214 +2150,120 @@
                 },
                 {
                   "x": 0,
-                  "y": 170
-                },
-                {
-                  "x": 365,
-                  "y": 170
+                  "y": 165
                 }
               ],
               "source": {
-                "direction": "Bottomright",
-                "element": "state_zl3bfe65n_mm9b38u1"
-              },
-              "target": {
-                "direction": "Left",
-                "element": "state_5emfhqwzt_mm9b38u1"
-              },
-              "isManuallyLayouted": false,
-              "transitionType": "predefined",
-              "predefined": {
-                "predefinedType": "when_intent_matched",
-                "intentName": "Contact"
-              },
-              "custom": {
-                "condition": []
-              }
-            },
-            "transition_zuuhzl5f9_mm9b38u1": {
-              "id": "transition_zuuhzl5f9_mm9b38u1",
-              "name": "",
-              "type": "AgentStateTransition",
-              "owner": null,
-              "bounds": {
-                "x": -350,
-                "y": -702.5,
-                "width": 430,
-                "height": 182.5
-              },
-              "path": [
-                {
-                  "x": 430,
-                  "y": 0
-                },
-                {
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "x": 0,
-                  "y": 182.5
-                }
-              ],
-              "source": {
-                "direction": "Upleft",
-                "element": "state_krso67h8q_mm9b38u1"
+                "direction": "Down",
+                "element": "initial_c1tomomdy_mnpt4iaj_ngd"
               },
               "target": {
                 "direction": "Up",
-                "element": "state_zl3bfe65n_mm9b38u1"
+                "element": "state_ixglq0ebf_mnpt4iaj_mdg"
               },
-              "isManuallyLayouted": false,
-              "transitionType": "predefined",
-              "predefined": {
-                "predefinedType": "auto",
-                "conditionValue": ""
-              },
-              "custom": {
-                "condition": []
-              }
+              "isManuallyLayouted": false
             },
-            "transition_rjozmqoco_mm9b38u1": {
-              "id": "transition_rjozmqoco_mm9b38u1",
-              "name": "",
+            "transition_nxx733otz_mnpt4iaj_zp9": {
+              "id": "transition_nxx733otz_mnpt4iaj_zp9",
+              "name": "AskOpenTasks",
               "type": "AgentStateTransition",
               "owner": null,
               "bounds": {
-                "x": -350,
-                "y": -450,
-                "width": 640,
-                "height": 260
+                "x": -400,
+                "y": 195,
+                "width": 550,
+                "height": 155
               },
               "path": [
                 {
-                  "x": 640,
-                  "y": 220
-                },
-                {
-                  "x": 640,
-                  "y": 260
+                  "x": 0,
+                  "y": 115
                 },
                 {
                   "x": 0,
-                  "y": 260
+                  "y": 155
                 },
                 {
-                  "x": 0,
-                  "y": 0
+                  "x": 250,
+                  "y": 155
+                },
+                {
+                  "x": 250,
+                  "y": 10
+                },
+                {
+                  "x": 550,
+                  "y": 10
+                },
+                {
+                  "x": 550,
+                  "y": 85
                 }
               ],
               "source": {
                 "direction": "Down",
-                "element": "state_5emfhqwzt_mm9b38u1"
+                "element": "state_ixglq0ebf_mnpt4iaj_mdg"
               },
               "target": {
+                "direction": "Up",
+                "element": "state_5mj0hzvkg_mnpt4iaj_9oc"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "when_intent_matched",
+                "intentName": "AskOpenTasks"
+              },
+              "custom": {
+                "condition": []
+              }
+            },
+            "transition_ljiockv6y_mnpt4iaj_293": {
+              "id": "transition_ljiockv6y_mnpt4iaj_293",
+              "name": "SortByImportance",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": 150,
+                "y": 320,
+                "width": 287.828125,
+                "height": 237.5
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 40
+                },
+                {
+                  "x": 245,
+                  "y": 40
+                },
+                {
+                  "x": 245,
+                  "y": 237.5
+                },
+                {
+                  "x": 200,
+                  "y": 237.5
+                }
+              ],
+              "source": {
                 "direction": "Down",
-                "element": "state_zl3bfe65n_mm9b38u1"
-              },
-              "isManuallyLayouted": false,
-              "transitionType": "predefined",
-              "predefined": {
-                "predefinedType": "auto",
-                "conditionValue": ""
-              },
-              "custom": {
-                "condition": []
-              }
-            },
-            "5f574d18-6641-4c80-bd19-92b862b47b7c": {
-              "id": "5f574d18-6641-4c80-bd19-92b862b47b7c",
-              "name": "",
-              "type": "AgentStateTransition",
-              "owner": null,
-              "bounds": {
-                "x": -220,
-                "y": -467.5,
-                "width": 405,
-                "height": 77.5
-              },
-              "path": [
-                {
-                  "x": 405,
-                  "y": 37.5
-                },
-                {
-                  "x": 405,
-                  "y": 77.5
-                },
-                {
-                  "x": 150,
-                  "y": 77.5
-                },
-                {
-                  "x": 150,
-                  "y": 0
-                },
-                {
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "source": {
-                "direction": "Bottomleft",
-                "element": "state_j5tnma02n_mm9b38u1"
+                "element": "state_5mj0hzvkg_mnpt4iaj_9oc"
               },
               "target": {
-                "direction": "Downright",
-                "element": "state_zl3bfe65n_mm9b38u1"
+                "direction": "Upright",
+                "element": "state_o7ndlmzdg_mnpt4iaj_0cy"
               },
               "isManuallyLayouted": false,
               "transitionType": "predefined",
               "predefined": {
-                "predefinedType": "auto",
-                "conditionValue": ""
-              },
-              "custom": {
-                "condition": []
-              }
-            },
-            "5cf30015-c8cf-47be-8ad0-80bbba94d35e": {
-              "id": "5cf30015-c8cf-47be-8ad0-80bbba94d35e",
-              "name": "",
-              "type": "AgentStateTransition",
-              "owner": null,
-              "bounds": {
-                "x": -640,
-                "y": -577.5,
-                "width": 160,
-                "height": 92.5
-              },
-              "path": [
-                {
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "x": 80,
-                  "y": 0
-                },
-                {
-                  "x": 80,
-                  "y": 92.5
-                },
-                {
-                  "x": 160,
-                  "y": 92.5
-                }
-              ],
-              "source": {
-                "direction": "Downright",
-                "element": "46badadf-e50d-481e-8246-3ba2393fce47"
-              },
-              "target": {
-                "direction": "Left",
-                "element": "state_zl3bfe65n_mm9b38u1"
-              },
-              "isManuallyLayouted": false,
-              "transitionType": "predefined",
-              "predefined": {
-                "predefinedType": "auto",
-                "conditionValue": ""
+                "predefinedType": "when_intent_matched",
+                "intentName": "SortByImportance"
               },
               "custom": {
                 "condition": []
@@ -908,7 +2272,7 @@
           },
           "assessments": {}
         },
-        "lastUpdate": "2026-04-08T07:13:24.534Z"
+        "lastUpdate": "2026-04-08T08:57:59.648Z"
       }
     ],
     "UserDiagram": {

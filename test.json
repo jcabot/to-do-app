@@ -1,0 +1,3544 @@
+{
+  "id": "83e9f05c-f750-4c85-9a03-8a41d8ec9f62",
+  "type": "Project",
+  "name": "test",
+  "description": "New project",
+  "owner": "User",
+  "createdAt": "2026-03-19T08:43:43.324Z",
+  "currentDiagramType": "ClassDiagram",
+  "diagrams": {
+    "ClassDiagram": [
+      {
+        "id": "45470338-05da-48f7-a675-ec673e3b7f6c",
+        "title": "Class Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 2180,
+            "height": 600
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "class_ykryfaoj0_mmx8q8jn": {
+              "id": "class_ykryfaoj0_mmx8q8jn",
+              "name": "Book",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -580,
+                "y": -280,
+                "width": 240,
+                "height": 165
+              },
+              "attributes": [
+                "attr_wy9turo64_mmx8q8jn",
+                "attr_2pgmoo9d6_mmx8q8jn",
+                "attr_8z28eq839_mmx8q8jn",
+                "attr_syxs9llaa_mmx8q8jn"
+              ],
+              "methods": [
+                "method_0eti93918_mmx8q8jn"
+              ]
+            },
+            "attr_wy9turo64_mmx8q8jn": {
+              "id": "attr_wy9turo64_mmx8q8jn",
+              "name": "title",
+              "type": "ClassAttribute",
+              "owner": "class_ykryfaoj0_mmx8q8jn",
+              "bounds": {
+                "x": -579.5,
+                "y": -239.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_2pgmoo9d6_mmx8q8jn": {
+              "id": "attr_2pgmoo9d6_mmx8q8jn",
+              "name": "isbn",
+              "type": "ClassAttribute",
+              "owner": "class_ykryfaoj0_mmx8q8jn",
+              "bounds": {
+                "x": -579.5,
+                "y": -214.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_8z28eq839_mmx8q8jn": {
+              "id": "attr_8z28eq839_mmx8q8jn",
+              "name": "publicationDate",
+              "type": "ClassAttribute",
+              "owner": "class_ykryfaoj0_mmx8q8jn",
+              "bounds": {
+                "x": -579.5,
+                "y": -189.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_syxs9llaa_mmx8q8jn": {
+              "id": "attr_syxs9llaa_mmx8q8jn",
+              "name": "copiesAvailable",
+              "type": "ClassAttribute",
+              "owner": "class_ykryfaoj0_mmx8q8jn",
+              "bounds": {
+                "x": -579.5,
+                "y": -164.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "method_0eti93918_mmx8q8jn": {
+              "id": "method_0eti93918_mmx8q8jn",
+              "name": "checkout(memberId",
+              "type": "ClassMethod",
+              "owner": "class_ykryfaoj0_mmx8q8jn",
+              "bounds": {
+                "x": -579.5,
+                "y": -139.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str): any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "class_q1bot8tqx_mmx8q8jn": {
+              "id": "class_q1bot8tqx_mmx8q8jn",
+              "name": "Member",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -110,
+                "y": 20,
+                "width": 240,
+                "height": 165
+              },
+              "attributes": [
+                "attr_3kfhuto0q_mmx8q8jn",
+                "attr_8jjbwebat_mmx8q8jn",
+                "attr_434112hjg_mmx8q8jn",
+                "attr_4te173kn0_mmx8q8jn"
+              ],
+              "methods": [
+                "method_kqpwu5ioo_mmx8q8jn"
+              ]
+            },
+            "attr_3kfhuto0q_mmx8q8jn": {
+              "id": "attr_3kfhuto0q_mmx8q8jn",
+              "name": "memberId",
+              "type": "ClassAttribute",
+              "owner": "class_q1bot8tqx_mmx8q8jn",
+              "bounds": {
+                "x": -109.5,
+                "y": 60.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_8jjbwebat_mmx8q8jn": {
+              "id": "attr_8jjbwebat_mmx8q8jn",
+              "name": "name",
+              "type": "ClassAttribute",
+              "owner": "class_q1bot8tqx_mmx8q8jn",
+              "bounds": {
+                "x": -109.5,
+                "y": 85.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_434112hjg_mmx8q8jn": {
+              "id": "attr_434112hjg_mmx8q8jn",
+              "name": "email",
+              "type": "ClassAttribute",
+              "owner": "class_q1bot8tqx_mmx8q8jn",
+              "bounds": {
+                "x": -109.5,
+                "y": 110.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_4te173kn0_mmx8q8jn": {
+              "id": "attr_4te173kn0_mmx8q8jn",
+              "name": "membershipDate",
+              "type": "ClassAttribute",
+              "owner": "class_q1bot8tqx_mmx8q8jn",
+              "bounds": {
+                "x": -109.5,
+                "y": 135.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "method_kqpwu5ioo_mmx8q8jn": {
+              "id": "method_kqpwu5ioo_mmx8q8jn",
+              "name": "borrowBook(bookId",
+              "type": "ClassMethod",
+              "owner": "class_q1bot8tqx_mmx8q8jn",
+              "bounds": {
+                "x": -109.5,
+                "y": 160.5,
+                "width": 239,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str): any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "class_uqlv53z09_mmx8q8jn": {
+              "id": "class_uqlv53z09_mmx8q8jn",
+              "name": "Loan",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -600,
+                "y": 20,
+                "width": 230,
+                "height": 165
+              },
+              "attributes": [
+                "attr_uz7o2i0bc_mmx8q8jn",
+                "attr_9h2he69oh_mmx8q8jn",
+                "attr_c8b7q8ay1_mmx8q8jn",
+                "attr_r9ss9h2az_mmx8q8jn"
+              ],
+              "methods": [
+                "method_i1tafiiqg_mmx8q8jn"
+              ]
+            },
+            "attr_uz7o2i0bc_mmx8q8jn": {
+              "id": "attr_uz7o2i0bc_mmx8q8jn",
+              "name": "loanId",
+              "type": "ClassAttribute",
+              "owner": "class_uqlv53z09_mmx8q8jn",
+              "bounds": {
+                "x": -599.5,
+                "y": 60.5,
+                "width": 229,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_9h2he69oh_mmx8q8jn": {
+              "id": "attr_9h2he69oh_mmx8q8jn",
+              "name": "loanDate",
+              "type": "ClassAttribute",
+              "owner": "class_uqlv53z09_mmx8q8jn",
+              "bounds": {
+                "x": -599.5,
+                "y": 85.5,
+                "width": 229,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_c8b7q8ay1_mmx8q8jn": {
+              "id": "attr_c8b7q8ay1_mmx8q8jn",
+              "name": "dueDate",
+              "type": "ClassAttribute",
+              "owner": "class_uqlv53z09_mmx8q8jn",
+              "bounds": {
+                "x": -599.5,
+                "y": 110.5,
+                "width": 229,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_r9ss9h2az_mmx8q8jn": {
+              "id": "attr_r9ss9h2az_mmx8q8jn",
+              "name": "returnDate",
+              "type": "ClassAttribute",
+              "owner": "class_uqlv53z09_mmx8q8jn",
+              "bounds": {
+                "x": -599.5,
+                "y": 135.5,
+                "width": 229,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "method_i1tafiiqg_mmx8q8jn": {
+              "id": "method_i1tafiiqg_mmx8q8jn",
+              "name": "returnBook(bookId",
+              "type": "ClassMethod",
+              "owner": "class_uqlv53z09_mmx8q8jn",
+              "bounds": {
+                "x": -599.5,
+                "y": 160.5,
+                "width": 229,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str): any",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "class_uplm9kfij_mmx8q8jn": {
+              "id": "class_uplm9kfij_mmx8q8jn",
+              "name": "Author",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -1070,
+                "y": -260,
+                "width": 220,
+                "height": 115
+              },
+              "attributes": [
+                "attr_3t44knc8f_mmx8q8jn",
+                "attr_bepbqyr0t_mmx8q8jo",
+                "attr_6asoy4yav_mmx8q8jo"
+              ],
+              "methods": []
+            },
+            "attr_3t44knc8f_mmx8q8jn": {
+              "id": "attr_3t44knc8f_mmx8q8jn",
+              "name": "authorId",
+              "type": "ClassAttribute",
+              "owner": "class_uplm9kfij_mmx8q8jn",
+              "bounds": {
+                "x": -1069.5,
+                "y": -219.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_bepbqyr0t_mmx8q8jo": {
+              "id": "attr_bepbqyr0t_mmx8q8jo",
+              "name": "name",
+              "type": "ClassAttribute",
+              "owner": "class_uplm9kfij_mmx8q8jn",
+              "bounds": {
+                "x": -1069.5,
+                "y": -194.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            },
+            "attr_6asoy4yav_mmx8q8jo": {
+              "id": "attr_6asoy4yav_mmx8q8jo",
+              "name": "biography",
+              "type": "ClassAttribute",
+              "owner": "class_uplm9kfij_mmx8q8jn",
+              "bounds": {
+                "x": -1069.5,
+                "y": -169.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false
+            }
+          },
+          "relationships": {
+            "rel_ivjou2wgg_mmx8q8jo": {
+              "id": "rel_ivjou2wgg_mmx8q8jo",
+              "name": "writtenBy",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -850,
+                "y": -212.5,
+                "width": 270,
+                "height": 48.60000038146973
+              },
+              "path": [
+                {
+                  "x": 270,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Left",
+                "element": "class_ykryfaoj0_mmx8q8jn",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Right",
+                "element": "class_uplm9kfij_mmx8q8jn",
+                "multiplicity": "*",
+                "role": "writtenBy",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_x1qfr6p1l_mmx8q8jo": {
+              "id": "rel_x1qfr6p1l_mmx8q8jo",
+              "name": "hasLoans",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -370,
+                "y": 92.5,
+                "width": 260,
+                "height": 48.60000038146973
+              },
+              "path": [
+                {
+                  "x": 260,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Left",
+                "element": "class_q1bot8tqx_mmx8q8jn",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Downright",
+                "element": "class_uqlv53z09_mmx8q8jn",
+                "multiplicity": "*",
+                "role": "hasLoans",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_xu14bb31m_mmx8q8jo": {
+              "id": "rel_xu14bb31m_mmx8q8jo",
+              "name": "isLoanedIn",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -558.3000030517578,
+                "y": -115,
+                "width": 97.2000036239624,
+                "height": 144.60000038146973
+              },
+              "path": [
+                {
+                  "x": 83.30000305175781,
+                  "y": 0
+                },
+                {
+                  "x": 83.30000305175781,
+                  "y": 135
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "class_ykryfaoj0_mmx8q8jn",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Up",
+                "element": "class_uqlv53z09_mmx8q8jn",
+                "multiplicity": "*",
+                "role": "isLoanedIn",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-08T07:14:40.208Z"
+      }
+    ],
+    "ObjectDiagram": [
+      {
+        "id": "bf009bd6-4a65-42a9-b71b-b3332a94a4fa",
+        "title": "Object Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ObjectDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-03-19T08:43:43.324Z",
+        "references": {
+          "ClassDiagram": "45470338-05da-48f7-a675-ec673e3b7f6c"
+        }
+      }
+    ],
+    "StateMachineDiagram": [
+      {
+        "id": "9d4accfc-fcd0-48f1-9127-a8c009769c23",
+        "title": "State Machine Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "StateMachineDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-03-19T08:43:43.324Z"
+      }
+    ],
+    "AgentDiagram": [
+      {
+        "id": "94db67b6-068d-4e7d-891e-ee8bda83f136",
+        "title": "Agent Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "AgentDiagram",
+          "size": {
+            "width": 2300,
+            "height": 1540
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "initial_72th6ksf3_mm9b38u1": {
+              "id": "initial_72th6ksf3_mm9b38u1",
+              "name": "",
+              "type": "StateInitialNode",
+              "owner": null,
+              "bounds": {
+                "x": -1120,
+                "y": -620,
+                "width": 45,
+                "height": 45
+              }
+            },
+            "intent_jtmr4apyg_mm9b38u1": {
+              "id": "intent_jtmr4apyg_mm9b38u1",
+              "name": "OpeningHours",
+              "type": "AgentIntent",
+              "owner": null,
+              "bounds": {
+                "x": -680,
+                "y": -100,
+                "width": 410,
+                "height": 190
+              },
+              "bodies": [
+                "intentBody_jn9sy9wl2_mm9b38u1",
+                "intentBody_61dj9fnk0_mm9b38u1",
+                "intentBody_b8jkj9t1s_mm9b38u1",
+                "intentBody_jl9eozt0r_mm9b38u1"
+              ],
+              "intent_description": "Asking for the opening hours of the library."
+            },
+            "intentBody_jn9sy9wl2_mm9b38u1": {
+              "id": "intentBody_jn9sy9wl2_mm9b38u1",
+              "name": "what are the opening hours?",
+              "type": "AgentIntentBody",
+              "owner": "intent_jtmr4apyg_mm9b38u1",
+              "bounds": {
+                "x": -679.5,
+                "y": -29.5,
+                "width": 409,
+                "height": 30
+              }
+            },
+            "intentBody_61dj9fnk0_mm9b38u1": {
+              "id": "intentBody_61dj9fnk0_mm9b38u1",
+              "name": "library hours",
+              "type": "AgentIntentBody",
+              "owner": "intent_jtmr4apyg_mm9b38u1",
+              "bounds": {
+                "x": -679.5,
+                "y": 0.5,
+                "width": 409,
+                "height": 30
+              }
+            },
+            "intentBody_b8jkj9t1s_mm9b38u1": {
+              "id": "intentBody_b8jkj9t1s_mm9b38u1",
+              "name": "when do you open?",
+              "type": "AgentIntentBody",
+              "owner": "intent_jtmr4apyg_mm9b38u1",
+              "bounds": {
+                "x": -679.5,
+                "y": 30.5,
+                "width": 409,
+                "height": 30
+              }
+            },
+            "intentBody_jl9eozt0r_mm9b38u1": {
+              "id": "intentBody_jl9eozt0r_mm9b38u1",
+              "name": "hours of operation",
+              "type": "AgentIntentBody",
+              "owner": "intent_jtmr4apyg_mm9b38u1",
+              "bounds": {
+                "x": -679.5,
+                "y": 60.5,
+                "width": 409,
+                "height": 30
+              }
+            },
+            "intent_ggq3p9gv8_mm9b38u1": {
+              "id": "intent_ggq3p9gv8_mm9b38u1",
+              "name": "CheapestBook",
+              "type": "AgentIntent",
+              "owner": null,
+              "bounds": {
+                "x": -250,
+                "y": -100,
+                "width": 490,
+                "height": 130
+              },
+              "bodies": [
+                "intentBody_06wxt0vga_mm9b38u1",
+                "intentBody_14tgxxf1f_mm9b38u1",
+                "intentBody_j2ugmtuh8_mm9b38u1"
+              ],
+              "intent_description": ""
+            },
+            "intentBody_06wxt0vga_mm9b38u1": {
+              "id": "intentBody_06wxt0vga_mm9b38u1",
+              "name": "how to get the title of the cheapest book of an author?",
+              "type": "AgentIntentBody",
+              "owner": "intent_ggq3p9gv8_mm9b38u1",
+              "bounds": {
+                "x": -249.5,
+                "y": -59.5,
+                "width": 489,
+                "height": 30
+              }
+            },
+            "intentBody_14tgxxf1f_mm9b38u1": {
+              "id": "intentBody_14tgxxf1f_mm9b38u1",
+              "name": "I want to know the cheapest book",
+              "type": "AgentIntentBody",
+              "owner": "intent_ggq3p9gv8_mm9b38u1",
+              "bounds": {
+                "x": -249.5,
+                "y": -29.5,
+                "width": 489,
+                "height": 30
+              }
+            },
+            "intentBody_j2ugmtuh8_mm9b38u1": {
+              "id": "intentBody_j2ugmtuh8_mm9b38u1",
+              "name": "which is the cheapest book?",
+              "type": "AgentIntentBody",
+              "owner": "intent_ggq3p9gv8_mm9b38u1",
+              "bounds": {
+                "x": -249.5,
+                "y": 0.5,
+                "width": 489,
+                "height": 30
+              }
+            },
+            "intent_zuidaui0x_mm9b38u1": {
+              "id": "intent_zuidaui0x_mm9b38u1",
+              "name": "Contact",
+              "type": "AgentIntent",
+              "owner": null,
+              "bounds": {
+                "x": -1130,
+                "y": -100,
+                "width": 430,
+                "height": 160
+              },
+              "bodies": [
+                "intentBody_9kmxc6vnq_mm9b38u1",
+                "intentBody_mxczpzj8h_mm9b38u1",
+                "intentBody_8yqem5n2k_mm9b38u1"
+              ],
+              "intent_description": "Requesting to speak with a human assistant."
+            },
+            "intentBody_9kmxc6vnq_mm9b38u1": {
+              "id": "intentBody_9kmxc6vnq_mm9b38u1",
+              "name": "I need to speak to someone",
+              "type": "AgentIntentBody",
+              "owner": "intent_zuidaui0x_mm9b38u1",
+              "bounds": {
+                "x": -1129.5,
+                "y": -29.5,
+                "width": 429,
+                "height": 30
+              }
+            },
+            "intentBody_mxczpzj8h_mm9b38u1": {
+              "id": "intentBody_mxczpzj8h_mm9b38u1",
+              "name": "contact support",
+              "type": "AgentIntentBody",
+              "owner": "intent_zuidaui0x_mm9b38u1",
+              "bounds": {
+                "x": -1129.5,
+                "y": 0.5,
+                "width": 429,
+                "height": 30
+              }
+            },
+            "intentBody_8yqem5n2k_mm9b38u1": {
+              "id": "intentBody_8yqem5n2k_mm9b38u1",
+              "name": "human assistance",
+              "type": "AgentIntentBody",
+              "owner": "intent_zuidaui0x_mm9b38u1",
+              "bounds": {
+                "x": -1129.5,
+                "y": 30.5,
+                "width": 429,
+                "height": 30
+              }
+            },
+            "state_zl3bfe65n_mm9b38u1": {
+              "id": "state_zl3bfe65n_mm9b38u1",
+              "name": "Idle",
+              "type": "AgentState",
+              "owner": null,
+              "bounds": {
+                "x": -480,
+                "y": -520,
+                "width": 260,
+                "height": 70
+              },
+              "bodies": [
+                "body_wybm5pc31_mm9b38u1"
+              ],
+              "fallbackBodies": []
+            },
+            "body_wybm5pc31_mm9b38u1": {
+              "id": "body_wybm5pc31_mm9b38u1",
+              "name": "How can I assist you today?",
+              "type": "AgentStateBody",
+              "owner": "state_zl3bfe65n_mm9b38u1",
+              "bounds": {
+                "x": -479.5,
+                "y": -479.5,
+                "width": 259,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "state_j5tnma02n_mm9b38u1": {
+              "id": "state_j5tnma02n_mm9b38u1",
+              "name": "OpeningHoursState",
+              "type": "AgentState",
+              "owner": null,
+              "bounds": {
+                "x": 80,
+                "y": -530,
+                "width": 420,
+                "height": 100
+              },
+              "bodies": [
+                "body_a8ph8sxrt_mm9b38u1",
+                "fb1432f7-1778-4c8b-90f3-e471e86cec31"
+              ],
+              "fallbackBodies": []
+            },
+            "body_a8ph8sxrt_mm9b38u1": {
+              "id": "body_a8ph8sxrt_mm9b38u1",
+              "name": "Our opening hours are Monday\u2013Friday 9 AM\u20136 PM.",
+              "type": "AgentStateBody",
+              "owner": "state_j5tnma02n_mm9b38u1",
+              "bounds": {
+                "x": 80.5,
+                "y": -489.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "fb1432f7-1778-4c8b-90f3-e471e86cec31": {
+              "id": "fb1432f7-1778-4c8b-90f3-e471e86cec31",
+              "name": "Saturday 10 AM\u20134 PM. Closed Sunday.",
+              "type": "AgentStateBody",
+              "owner": "state_j5tnma02n_mm9b38u1",
+              "bounds": {
+                "x": 80.5,
+                "y": -459.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "state_krso67h8q_mm9b38u1": {
+              "id": "state_krso67h8q_mm9b38u1",
+              "name": "CheapestBookState",
+              "type": "AgentState",
+              "owner": null,
+              "bounds": {
+                "x": 80,
+                "y": -750,
+                "width": 420,
+                "height": 190
+              },
+              "bodies": [
+                "body_38x5jthwr_mm9b38u1",
+                "body_0yl3shkws_mm9b38u1",
+                "b533e6a5-cc51-4f0d-a269-98bf81a02c31",
+                "7c8e27fb-8cce-4f3d-9cc4-19ef5a963b8a",
+                "b779be48-1bc4-4984-9274-00c91203552a"
+              ],
+              "fallbackBodies": []
+            },
+            "body_38x5jthwr_mm9b38u1": {
+              "id": "body_38x5jthwr_mm9b38u1",
+              "name": "To get the cheapest book of an author, follow these steps:",
+              "type": "AgentStateBody",
+              "owner": "state_krso67h8q_mm9b38u1",
+              "bounds": {
+                "x": 80.5,
+                "y": -709.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "body_0yl3shkws_mm9b38u1": {
+              "id": "body_0yl3shkws_mm9b38u1",
+              "name": "1. Go to the Library tab.",
+              "type": "AgentStateBody",
+              "owner": "state_krso67h8q_mm9b38u1",
+              "bounds": {
+                "x": 80.5,
+                "y": -679.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "b533e6a5-cc51-4f0d-a269-98bf81a02c31": {
+              "id": "b533e6a5-cc51-4f0d-a269-98bf81a02c31",
+              "name": "2. In the table, select the library where you want to search.",
+              "type": "AgentStateBody",
+              "owner": "state_krso67h8q_mm9b38u1",
+              "bounds": {
+                "x": 80.5,
+                "y": -649.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "7c8e27fb-8cce-4f3d-9cc4-19ef5a963b8a": {
+              "id": "7c8e27fb-8cce-4f3d-9cc4-19ef5a963b8a",
+              "name": "3. Click on \u201cCheapest Book\u201d.",
+              "type": "AgentStateBody",
+              "owner": "state_krso67h8q_mm9b38u1",
+              "bounds": {
+                "x": 80.5,
+                "y": -619.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "b779be48-1bc4-4984-9274-00c91203552a": {
+              "id": "b779be48-1bc4-4984-9274-00c91203552a",
+              "name": "4. Select an author and click \u201cExecute\u201d.",
+              "type": "AgentStateBody",
+              "owner": "state_krso67h8q_mm9b38u1",
+              "bounds": {
+                "x": 80.5,
+                "y": -589.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "state_5emfhqwzt_mm9b38u1": {
+              "id": "state_5emfhqwzt_mm9b38u1",
+              "name": "ContactState",
+              "type": "AgentState",
+              "owner": null,
+              "bounds": {
+                "x": 80,
+                "y": -330,
+                "width": 420,
+                "height": 100
+              },
+              "bodies": [
+                "body_b6vkku4r1_mm9b38u1",
+                "body_8i8n5kbs0_mm9b38u1"
+              ],
+              "fallbackBodies": []
+            },
+            "body_b6vkku4r1_mm9b38u1": {
+              "id": "body_b6vkku4r1_mm9b38u1",
+              "name": "You can contact a librarian at library@example.com or call +1 555-123-4567.",
+              "type": "AgentStateBody",
+              "owner": "state_5emfhqwzt_mm9b38u1",
+              "bounds": {
+                "x": 80.5,
+                "y": -289.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "body_8i8n5kbs0_mm9b38u1": {
+              "id": "body_8i8n5kbs0_mm9b38u1",
+              "name": "They will get back to you shortly.",
+              "type": "AgentStateBody",
+              "owner": "state_5emfhqwzt_mm9b38u1",
+              "bounds": {
+                "x": 80.5,
+                "y": -259.5,
+                "width": 419,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "46badadf-e50d-481e-8246-3ba2393fce47": {
+              "id": "46badadf-e50d-481e-8246-3ba2393fce47",
+              "name": "Greeting",
+              "type": "AgentState",
+              "owner": null,
+              "bounds": {
+                "x": -980,
+                "y": -630,
+                "width": 340,
+                "height": 70
+              },
+              "bodies": [
+                "e3aad61a-89b4-46a6-8c16-6f80b861d717"
+              ],
+              "fallbackBodies": []
+            },
+            "e3aad61a-89b4-46a6-8c16-6f80b861d717": {
+              "id": "e3aad61a-89b4-46a6-8c16-6f80b861d717",
+              "name": "Welcome to the library support system!",
+              "type": "AgentStateBody",
+              "owner": "46badadf-e50d-481e-8246-3ba2393fce47",
+              "bounds": {
+                "x": -979.5,
+                "y": -589.5,
+                "width": 339,
+                "height": 30
+              },
+              "replyType": "text"
+            },
+            "0edea0d9-cfa4-48e4-ae68-dfd226aa9f13": {
+              "id": "0edea0d9-cfa4-48e4-ae68-dfd226aa9f13",
+              "name": "Other",
+              "type": "AgentIntent",
+              "owner": null,
+              "bounds": {
+                "x": 260,
+                "y": -100,
+                "width": 250,
+                "height": 70
+              },
+              "bodies": [],
+              "intent_description": "Any other question."
+            }
+          },
+          "relationships": {
+            "transition_ixdyt9fr7_mm9b38u1": {
+              "id": "transition_ixdyt9fr7_mm9b38u1",
+              "name": "",
+              "type": "AgentStateTransitionInit",
+              "owner": null,
+              "bounds": {
+                "x": -1075,
+                "y": -597.5,
+                "width": 95,
+                "height": 1
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 95,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "initial_72th6ksf3_mm9b38u1"
+              },
+              "target": {
+                "direction": "Left",
+                "element": "46badadf-e50d-481e-8246-3ba2393fce47"
+              },
+              "isManuallyLayouted": false
+            },
+            "transition_x8h483xz2_mm9b38u1": {
+              "id": "transition_x8h483xz2_mm9b38u1",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": -220,
+                "y": -485,
+                "width": 300,
+                "height": 1
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 300,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "state_zl3bfe65n_mm9b38u1"
+              },
+              "target": {
+                "direction": "Upleft",
+                "element": "state_j5tnma02n_mm9b38u1"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "when_intent_matched",
+                "intentName": "OpeningHours"
+              },
+              "custom": {
+                "condition": []
+              }
+            },
+            "transition_53oz6z5cc_mm9b38u1": {
+              "id": "transition_53oz6z5cc_mm9b38u1",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": -285,
+                "y": -655,
+                "width": 365,
+                "height": 135
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 135
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 365,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Topright",
+                "element": "state_zl3bfe65n_mm9b38u1"
+              },
+              "target": {
+                "direction": "Left",
+                "element": "state_krso67h8q_mm9b38u1"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "when_intent_matched",
+                "intentName": "CheapestBook"
+              },
+              "custom": {
+                "condition": []
+              }
+            },
+            "transition_jc0mk7kpn_mm9b38u1": {
+              "id": "transition_jc0mk7kpn_mm9b38u1",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": -285,
+                "y": -450,
+                "width": 365,
+                "height": 170
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 170
+                },
+                {
+                  "x": 365,
+                  "y": 170
+                }
+              ],
+              "source": {
+                "direction": "Bottomright",
+                "element": "state_zl3bfe65n_mm9b38u1"
+              },
+              "target": {
+                "direction": "Left",
+                "element": "state_5emfhqwzt_mm9b38u1"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "when_intent_matched",
+                "intentName": "Contact"
+              },
+              "custom": {
+                "condition": []
+              }
+            },
+            "transition_zuuhzl5f9_mm9b38u1": {
+              "id": "transition_zuuhzl5f9_mm9b38u1",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": -350,
+                "y": -702.5,
+                "width": 430,
+                "height": 182.5
+              },
+              "path": [
+                {
+                  "x": 430,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 182.5
+                }
+              ],
+              "source": {
+                "direction": "Upleft",
+                "element": "state_krso67h8q_mm9b38u1"
+              },
+              "target": {
+                "direction": "Up",
+                "element": "state_zl3bfe65n_mm9b38u1"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "auto",
+                "conditionValue": ""
+              },
+              "custom": {
+                "condition": []
+              }
+            },
+            "transition_rjozmqoco_mm9b38u1": {
+              "id": "transition_rjozmqoco_mm9b38u1",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": -350,
+                "y": -450,
+                "width": 640,
+                "height": 260
+              },
+              "path": [
+                {
+                  "x": 640,
+                  "y": 220
+                },
+                {
+                  "x": 640,
+                  "y": 260
+                },
+                {
+                  "x": 0,
+                  "y": 260
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "state_5emfhqwzt_mm9b38u1"
+              },
+              "target": {
+                "direction": "Down",
+                "element": "state_zl3bfe65n_mm9b38u1"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "auto",
+                "conditionValue": ""
+              },
+              "custom": {
+                "condition": []
+              }
+            },
+            "5f574d18-6641-4c80-bd19-92b862b47b7c": {
+              "id": "5f574d18-6641-4c80-bd19-92b862b47b7c",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": -220,
+                "y": -467.5,
+                "width": 405,
+                "height": 77.5
+              },
+              "path": [
+                {
+                  "x": 405,
+                  "y": 37.5
+                },
+                {
+                  "x": 405,
+                  "y": 77.5
+                },
+                {
+                  "x": 150,
+                  "y": 77.5
+                },
+                {
+                  "x": 150,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Bottomleft",
+                "element": "state_j5tnma02n_mm9b38u1"
+              },
+              "target": {
+                "direction": "Downright",
+                "element": "state_zl3bfe65n_mm9b38u1"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "auto",
+                "conditionValue": ""
+              },
+              "custom": {
+                "condition": []
+              }
+            },
+            "5cf30015-c8cf-47be-8ad0-80bbba94d35e": {
+              "id": "5cf30015-c8cf-47be-8ad0-80bbba94d35e",
+              "name": "",
+              "type": "AgentStateTransition",
+              "owner": null,
+              "bounds": {
+                "x": -640,
+                "y": -577.5,
+                "width": 160,
+                "height": 92.5
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 80,
+                  "y": 0
+                },
+                {
+                  "x": 80,
+                  "y": 92.5
+                },
+                {
+                  "x": 160,
+                  "y": 92.5
+                }
+              ],
+              "source": {
+                "direction": "Downright",
+                "element": "46badadf-e50d-481e-8246-3ba2393fce47"
+              },
+              "target": {
+                "direction": "Left",
+                "element": "state_zl3bfe65n_mm9b38u1"
+              },
+              "isManuallyLayouted": false,
+              "transitionType": "predefined",
+              "predefined": {
+                "predefinedType": "auto",
+                "conditionValue": ""
+              },
+              "custom": {
+                "condition": []
+              }
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-08T07:13:24.534Z"
+      }
+    ],
+    "UserDiagram": {
+      "id": "3d274601-19af-4eac-80fd-490b58a0b122",
+      "title": "User Diagram",
+      "model": {
+        "version": "3.0.0",
+        "type": "UserDiagram",
+        "size": {
+          "width": 1400,
+          "height": 740
+        },
+        "elements": {},
+        "relationships": {},
+        "interactive": {
+          "elements": {},
+          "relationships": {}
+        },
+        "assessments": {}
+      },
+      "lastUpdate": "2026-03-19T08:43:43.324Z"
+    },
+    "GUINoCodeDiagram": [
+      {
+        "id": "1f977fb9-c3c9-48c3-b7bc-bf8ef481319a",
+        "title": "GUI Diagram",
+        "model": {
+          "pages": [
+            {
+              "name": "Book",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i1dlb"
+                        },
+                        "components": [
+                          {
+                            "tagName": "nav",
+                            "attributes": {
+                              "id": "iuhpn"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h2",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "intvr"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "BESSER"
+                                  }
+                                ]
+                              },
+                              {
+                                "attributes": {
+                                  "id": "iwkaa"
+                                },
+                                "components": [
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/book",
+                                      "id": "i1nz3"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Book"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/member",
+                                      "id": "i37xj"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Member"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/loan",
+                                      "id": "ir7dq"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Loan"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/author",
+                                      "id": "iwesu"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Author"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "attributes": {
+                                  "id": "i03lf"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "\u00a9 2026 BESSER. All rights reserved."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tagName": "main",
+                            "attributes": {
+                              "id": "i8ec5"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h1",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ihks7"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Book"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "p",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ika4h"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Manage Book data"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "table",
+                                "style": "",
+                                "attributes": {
+                                  "chart-color": "#2c3e50",
+                                  "chart-title": "Book List",
+                                  "data-source": "class_ykryfaoj0_mmx8q8jn",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "rows-per-page": "5",
+                                  "action-buttons": "true",
+                                  "columns": [
+                                    {
+                                      "field": "title",
+                                      "label": "Title",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "isbn",
+                                      "label": "Isbn",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "publicationDate",
+                                      "label": "PublicationDate",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "copiesAvailable",
+                                      "label": "CopiesAvailable",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "writtenBy",
+                                      "label": "WrittenBy",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_uplm9kfij_mmx8q8jn",
+                                      "lookupField": "authorId",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "isLoanedIn",
+                                      "label": "IsLoanedIn",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_uqlv53z09_mmx8q8jn",
+                                      "lookupField": "loanId",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "id": "table-book-0",
+                                  "filter": ""
+                                },
+                                "chart-title": "Book List",
+                                "data-source": "class_ykryfaoj0_mmx8q8jn",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "action-buttons": "true",
+                                "rows-per-page": "5",
+                                "filter": "",
+                                "columns": [
+                                  {
+                                    "field": "title",
+                                    "label": "Title",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "isbn",
+                                    "label": "Isbn",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "publicationDate",
+                                    "label": "PublicationDate",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "copiesAvailable",
+                                    "label": "CopiesAvailable",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "writtenBy",
+                                    "label": "WrittenBy",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "class_uplm9kfij_mmx8q8jn",
+                                    "lookupField": "authorId",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "isLoanedIn",
+                                    "label": "IsLoanedIn",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "class_uqlv53z09_mmx8q8jn",
+                                    "lookupField": "loanId",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "components": [
+                                  {
+                                    "type": "tbody",
+                                    "draggable": [
+                                      "table"
+                                    ],
+                                    "droppable": [
+                                      "tr"
+                                    ],
+                                    "components": [
+                                      {
+                                        "type": "row",
+                                        "draggable": [
+                                          "thead",
+                                          "tbody",
+                                          "tfoot"
+                                        ],
+                                        "droppable": [
+                                          "th",
+                                          "td"
+                                        ],
+                                        "classes": [
+                                          "row"
+                                        ],
+                                        "components": [
+                                          {
+                                            "type": "cell",
+                                            "draggable": [
+                                              "tr"
+                                            ],
+                                            "classes": [
+                                              "cell"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "chart-color": "#2c3e50"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "irlwo"
+                                },
+                                "components": [
+                                  {
+                                    "type": "action-button",
+                                    "style": "",
+                                    "classes": [
+                                      "action-button-component"
+                                    ],
+                                    "attributes": {
+                                      "type": "button",
+                                      "data-button-label": "checkout",
+                                      "data-action-type": "run-method",
+                                      "data-method-class": "class_ykryfaoj0_mmx8q8jn",
+                                      "data-method": "method_0eti93918_mmx8q8jn",
+                                      "data-instance-source": "table-book-0",
+                                      "id": "iugyz"
+                                    },
+                                    "button-label": "checkout",
+                                    "action-type": "run-method",
+                                    "method-class": "class_ykryfaoj0_mmx8q8jn",
+                                    "method": "method_0eti93918_mmx8q8jn",
+                                    "instance-source": "table-book-0",
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "checkout"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  },
+                  "id": "Ups6rBouHbel4CLm"
+                }
+              ],
+              "id": "page-book-0",
+              "route_path": "/book"
+            },
+            {
+              "name": "Member",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i2ufk"
+                        },
+                        "components": [
+                          {
+                            "tagName": "nav",
+                            "attributes": {
+                              "id": "is5yx"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h2",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ix5yh"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "BESSER"
+                                  }
+                                ]
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ixbjm"
+                                },
+                                "components": [
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/book",
+                                      "id": "iy9yj"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Book"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/member",
+                                      "id": "iurh4"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Member"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/loan",
+                                      "id": "iktzi"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Loan"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/author",
+                                      "id": "ikoun"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Author"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "attributes": {
+                                  "id": "imzzt"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "\u00a9 2026 BESSER. All rights reserved."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tagName": "main",
+                            "attributes": {
+                              "id": "iovel"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h1",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ijxnc"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Member"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "p",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "igg8f"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Manage Member data"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "table",
+                                "style": "",
+                                "attributes": {
+                                  "chart-color": "#2c3e50",
+                                  "chart-title": "Member List",
+                                  "data-source": "class_q1bot8tqx_mmx8q8jn",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "rows-per-page": "5",
+                                  "action-buttons": "true",
+                                  "columns": [
+                                    {
+                                      "field": "memberId",
+                                      "label": "MemberId",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "name",
+                                      "label": "Name",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "email",
+                                      "label": "Email",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "membershipDate",
+                                      "label": "MembershipDate",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "hasLoans",
+                                      "label": "HasLoans",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_uqlv53z09_mmx8q8jn",
+                                      "lookupField": "loanId",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "id": "table-member-1",
+                                  "filter": ""
+                                },
+                                "chart-title": "Member List",
+                                "data-source": "class_q1bot8tqx_mmx8q8jn",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "action-buttons": "true",
+                                "rows-per-page": "5",
+                                "filter": "",
+                                "columns": [
+                                  {
+                                    "field": "memberId",
+                                    "label": "MemberId",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "name",
+                                    "label": "Name",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "email",
+                                    "label": "Email",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "membershipDate",
+                                    "label": "MembershipDate",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "hasLoans",
+                                    "label": "HasLoans",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "class_uqlv53z09_mmx8q8jn",
+                                    "lookupField": "loanId",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "components": [
+                                  {
+                                    "type": "tbody",
+                                    "draggable": [
+                                      "table"
+                                    ],
+                                    "droppable": [
+                                      "tr"
+                                    ],
+                                    "components": [
+                                      {
+                                        "type": "row",
+                                        "draggable": [
+                                          "thead",
+                                          "tbody",
+                                          "tfoot"
+                                        ],
+                                        "droppable": [
+                                          "th",
+                                          "td"
+                                        ],
+                                        "classes": [
+                                          "row"
+                                        ],
+                                        "components": [
+                                          {
+                                            "type": "cell",
+                                            "draggable": [
+                                              "tr"
+                                            ],
+                                            "classes": [
+                                              "cell"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "chart-color": "#2c3e50"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ikozi"
+                                },
+                                "components": [
+                                  {
+                                    "type": "action-button",
+                                    "style": "",
+                                    "classes": [
+                                      "action-button-component"
+                                    ],
+                                    "attributes": {
+                                      "type": "button",
+                                      "data-button-label": "borrowBook",
+                                      "data-action-type": "run-method",
+                                      "data-method-class": "class_q1bot8tqx_mmx8q8jn",
+                                      "data-method": "method_kqpwu5ioo_mmx8q8jn",
+                                      "data-instance-source": "table-member-1",
+                                      "id": "iyunu"
+                                    },
+                                    "button-label": "borrowBook",
+                                    "action-type": "run-method",
+                                    "method-class": "class_q1bot8tqx_mmx8q8jn",
+                                    "method": "method_kqpwu5ioo_mmx8q8jn",
+                                    "instance-source": "table-member-1",
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "borrowBook"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  },
+                  "id": "BKF87stjNQqguFBB"
+                }
+              ],
+              "id": "page-member-1",
+              "route_path": "/member"
+            },
+            {
+              "name": "Loan",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "ik8p7"
+                        },
+                        "components": [
+                          {
+                            "tagName": "nav",
+                            "attributes": {
+                              "id": "i6r1f"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h2",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "i8v3j"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "BESSER"
+                                  }
+                                ]
+                              },
+                              {
+                                "attributes": {
+                                  "id": "i8c5f"
+                                },
+                                "components": [
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/book",
+                                      "id": "ig1sk"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Book"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/member",
+                                      "id": "iidip"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Member"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/loan",
+                                      "id": "iu7gh"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Loan"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/author",
+                                      "id": "ikz5x"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Author"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "attributes": {
+                                  "id": "iv043"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "\u00a9 2026 BESSER. All rights reserved."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tagName": "main",
+                            "attributes": {
+                              "id": "i8hzd"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h1",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ibctl"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Loan"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "p",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "imrm2"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Manage Loan data"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "table",
+                                "style": "",
+                                "attributes": {
+                                  "chart-color": "#2c3e50",
+                                  "chart-title": "Loan List",
+                                  "data-source": "class_uqlv53z09_mmx8q8jn",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "rows-per-page": "5",
+                                  "action-buttons": "true",
+                                  "columns": [
+                                    {
+                                      "field": "loanId",
+                                      "label": "LoanId",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "loanDate",
+                                      "label": "LoanDate",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "dueDate",
+                                      "label": "DueDate",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "returnDate",
+                                      "label": "ReturnDate",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "Member",
+                                      "label": "Member",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_q1bot8tqx_mmx8q8jn",
+                                      "lookupField": "memberId",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "Book",
+                                      "label": "Book",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_ykryfaoj0_mmx8q8jn",
+                                      "lookupField": "title",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "id": "table-loan-2",
+                                  "filter": ""
+                                },
+                                "chart-title": "Loan List",
+                                "data-source": "class_uqlv53z09_mmx8q8jn",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "action-buttons": "true",
+                                "rows-per-page": "5",
+                                "filter": "",
+                                "columns": [
+                                  {
+                                    "field": "loanId",
+                                    "label": "LoanId",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "loanDate",
+                                    "label": "LoanDate",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "dueDate",
+                                    "label": "DueDate",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "returnDate",
+                                    "label": "ReturnDate",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "Member",
+                                    "label": "Member",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "class_q1bot8tqx_mmx8q8jn",
+                                    "lookupField": "memberId",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "Book",
+                                    "label": "Book",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "class_ykryfaoj0_mmx8q8jn",
+                                    "lookupField": "title",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "components": [
+                                  {
+                                    "type": "tbody",
+                                    "draggable": [
+                                      "table"
+                                    ],
+                                    "droppable": [
+                                      "tr"
+                                    ],
+                                    "components": [
+                                      {
+                                        "type": "row",
+                                        "draggable": [
+                                          "thead",
+                                          "tbody",
+                                          "tfoot"
+                                        ],
+                                        "droppable": [
+                                          "th",
+                                          "td"
+                                        ],
+                                        "classes": [
+                                          "row"
+                                        ],
+                                        "components": [
+                                          {
+                                            "type": "cell",
+                                            "draggable": [
+                                              "tr"
+                                            ],
+                                            "classes": [
+                                              "cell"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "chart-color": "#2c3e50"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "iehla"
+                                },
+                                "components": [
+                                  {
+                                    "type": "action-button",
+                                    "style": "",
+                                    "classes": [
+                                      "action-button-component"
+                                    ],
+                                    "attributes": {
+                                      "type": "button",
+                                      "data-button-label": "returnBook",
+                                      "data-action-type": "run-method",
+                                      "data-method-class": "class_uqlv53z09_mmx8q8jn",
+                                      "data-method": "method_i1tafiiqg_mmx8q8jn",
+                                      "data-instance-source": "table-loan-2",
+                                      "id": "irg4z"
+                                    },
+                                    "button-label": "returnBook",
+                                    "action-type": "run-method",
+                                    "method-class": "class_uqlv53z09_mmx8q8jn",
+                                    "method": "method_i1tafiiqg_mmx8q8jn",
+                                    "instance-source": "table-loan-2",
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "returnBook"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  },
+                  "id": "wc1zrMlBbUmj2ok0"
+                }
+              ],
+              "id": "page-loan-2",
+              "route_path": "/loan"
+            },
+            {
+              "name": "Author",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "i6zxw"
+                        },
+                        "components": [
+                          {
+                            "tagName": "nav",
+                            "attributes": {
+                              "id": "i26it"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h2",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "inu6e"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "BESSER"
+                                  }
+                                ]
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ih1g4k"
+                                },
+                                "components": [
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/book",
+                                      "id": "ial9ca"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Book"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/member",
+                                      "id": "ixe1uh"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Member"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/loan",
+                                      "id": "icicxy"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Loan"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "link",
+                                    "attributes": {
+                                      "href": "/author",
+                                      "id": "i32k4i"
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "textnode",
+                                        "content": "Author"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ieh2l3"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "\u00a9 2026 BESSER. All rights reserved."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tagName": "main",
+                            "attributes": {
+                              "id": "i4vsof"
+                            },
+                            "components": [
+                              {
+                                "tagName": "h1",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "iq7v9x"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Author"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "p",
+                                "type": "text",
+                                "attributes": {
+                                  "id": "ig56df"
+                                },
+                                "components": [
+                                  {
+                                    "type": "textnode",
+                                    "content": "Manage Author data"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "table",
+                                "style": "",
+                                "attributes": {
+                                  "chart-color": "#2c3e50",
+                                  "chart-title": "Author List",
+                                  "data-source": "class_uplm9kfij_mmx8q8jn",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "rows-per-page": "5",
+                                  "action-buttons": "true",
+                                  "columns": [
+                                    {
+                                      "field": "authorId",
+                                      "label": "AuthorId",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "name",
+                                      "label": "Name",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "biography",
+                                      "label": "Biography",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "Book",
+                                      "label": "Book",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_ykryfaoj0_mmx8q8jn",
+                                      "lookupField": "title",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "id": "table-author-3",
+                                  "filter": ""
+                                },
+                                "chart-title": "Author List",
+                                "data-source": "class_uplm9kfij_mmx8q8jn",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "action-buttons": "true",
+                                "rows-per-page": "5",
+                                "filter": "",
+                                "columns": [
+                                  {
+                                    "field": "authorId",
+                                    "label": "AuthorId",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "name",
+                                    "label": "Name",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "biography",
+                                    "label": "Biography",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "Book",
+                                    "label": "Book",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "class_ykryfaoj0_mmx8q8jn",
+                                    "lookupField": "title",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "components": [
+                                  {
+                                    "type": "tbody",
+                                    "draggable": [
+                                      "table"
+                                    ],
+                                    "droppable": [
+                                      "tr"
+                                    ],
+                                    "components": [
+                                      {
+                                        "type": "row",
+                                        "draggable": [
+                                          "thead",
+                                          "tbody",
+                                          "tfoot"
+                                        ],
+                                        "droppable": [
+                                          "th",
+                                          "td"
+                                        ],
+                                        "classes": [
+                                          "row"
+                                        ],
+                                        "components": [
+                                          {
+                                            "type": "cell",
+                                            "draggable": [
+                                              "tr"
+                                            ],
+                                            "classes": [
+                                              "cell"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "chart-color": "#2c3e50"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  },
+                  "id": "zWIcNgmj3X309kwy"
+                }
+              ],
+              "id": "page-author-3",
+              "route_path": "/author"
+            }
+          ],
+          "styles": [
+            {
+              "selectors": [
+                "#intvr"
+              ],
+              "style": {
+                "margin-top": "0",
+                "font-size": "24px",
+                "margin-bottom": "30px",
+                "font-weight": "bold"
+              }
+            },
+            {
+              "selectors": [
+                "#i1nz3"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "rgba(255,255,255,0.2)",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#i37xj"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#ir7dq"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#iwesu"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#iwkaa"
+              ],
+              "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "flex": "1"
+              }
+            },
+            {
+              "selectors": [
+                "#i03lf"
+              ],
+              "style": {
+                "margin-top": "auto",
+                "padding-top": "20px",
+                "border-top": "1px solid rgba(255,255,255,0.2)",
+                "font-size": "11px",
+                "opacity": "0.8",
+                "text-align": "center"
+              }
+            },
+            {
+              "selectors": [
+                "#iuhpn"
+              ],
+              "style": {
+                "width": "250px",
+                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                "color": "white",
+                "padding": "20px",
+                "overflow-y": "auto",
+                "display": "flex",
+                "flex-direction": "column"
+              }
+            },
+            {
+              "selectors": [
+                "#ihks7"
+              ],
+              "style": {
+                "margin-top": "0",
+                "color": "#333",
+                "font-size": "32px",
+                "margin-bottom": "10px"
+              }
+            },
+            {
+              "selectors": [
+                "#ika4h"
+              ],
+              "style": {
+                "color": "#666",
+                "margin-bottom": "30px"
+              }
+            },
+            {
+              "selectors": [
+                "#table-book-0"
+              ],
+              "style": {
+                "width": "100%",
+                "min-height": "400px"
+              }
+            },
+            {
+              "selectors": [
+                "#iugyz"
+              ],
+              "style": {
+                "display": "inline-flex",
+                "align-items": "center",
+                "padding": "6px 14px",
+                "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                "color": "#fff",
+                "text-decoration": "none",
+                "border-radius": "4px",
+                "font-size": "13px",
+                "font-weight": "600",
+                "letter-spacing": "0.01em",
+                "cursor": "pointer",
+                "border": "none",
+                "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                "transition": "background 0.2s"
+              }
+            },
+            {
+              "selectors": [
+                "#irlwo"
+              ],
+              "style": {
+                "margin-top": "20px",
+                "display": "flex",
+                "gap": "10px",
+                "flex-wrap": "wrap"
+              }
+            },
+            {
+              "selectors": [
+                "#i8ec5"
+              ],
+              "style": {
+                "flex": "1",
+                "padding": "40px",
+                "overflow-y": "auto",
+                "background": "#f5f5f5"
+              }
+            },
+            {
+              "selectors": [
+                "#i1dlb"
+              ],
+              "style": {
+                "display": "flex",
+                "height": "100vh",
+                "font-family": "Arial, sans-serif"
+              }
+            },
+            {
+              "selectors": [
+                "#ix5yh"
+              ],
+              "style": {
+                "margin-top": "0",
+                "font-size": "24px",
+                "margin-bottom": "30px",
+                "font-weight": "bold"
+              }
+            },
+            {
+              "selectors": [
+                "#iy9yj"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#iurh4"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "rgba(255,255,255,0.2)",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#iktzi"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#ikoun"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#ixbjm"
+              ],
+              "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "flex": "1"
+              }
+            },
+            {
+              "selectors": [
+                "#imzzt"
+              ],
+              "style": {
+                "margin-top": "auto",
+                "padding-top": "20px",
+                "border-top": "1px solid rgba(255,255,255,0.2)",
+                "font-size": "11px",
+                "opacity": "0.8",
+                "text-align": "center"
+              }
+            },
+            {
+              "selectors": [
+                "#is5yx"
+              ],
+              "style": {
+                "width": "250px",
+                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                "color": "white",
+                "padding": "20px",
+                "overflow-y": "auto",
+                "display": "flex",
+                "flex-direction": "column"
+              }
+            },
+            {
+              "selectors": [
+                "#ijxnc"
+              ],
+              "style": {
+                "margin-top": "0",
+                "color": "#333",
+                "font-size": "32px",
+                "margin-bottom": "10px"
+              }
+            },
+            {
+              "selectors": [
+                "#igg8f"
+              ],
+              "style": {
+                "color": "#666",
+                "margin-bottom": "30px"
+              }
+            },
+            {
+              "selectors": [
+                "#table-member-1"
+              ],
+              "style": {
+                "width": "100%",
+                "min-height": "400px"
+              }
+            },
+            {
+              "selectors": [
+                "#iyunu"
+              ],
+              "style": {
+                "display": "inline-flex",
+                "align-items": "center",
+                "padding": "6px 14px",
+                "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                "color": "#fff",
+                "text-decoration": "none",
+                "border-radius": "4px",
+                "font-size": "13px",
+                "font-weight": "600",
+                "letter-spacing": "0.01em",
+                "cursor": "pointer",
+                "border": "none",
+                "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                "transition": "background 0.2s"
+              }
+            },
+            {
+              "selectors": [
+                "#ikozi"
+              ],
+              "style": {
+                "margin-top": "20px",
+                "display": "flex",
+                "gap": "10px",
+                "flex-wrap": "wrap"
+              }
+            },
+            {
+              "selectors": [
+                "#iovel"
+              ],
+              "style": {
+                "flex": "1",
+                "padding": "40px",
+                "overflow-y": "auto",
+                "background": "#f5f5f5"
+              }
+            },
+            {
+              "selectors": [
+                "#i2ufk"
+              ],
+              "style": {
+                "display": "flex",
+                "height": "100vh",
+                "font-family": "Arial, sans-serif"
+              }
+            },
+            {
+              "selectors": [
+                "#i8v3j"
+              ],
+              "style": {
+                "margin-top": "0",
+                "font-size": "24px",
+                "margin-bottom": "30px",
+                "font-weight": "bold"
+              }
+            },
+            {
+              "selectors": [
+                "#ig1sk"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#iidip"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#iu7gh"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "rgba(255,255,255,0.2)",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#ikz5x"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#i8c5f"
+              ],
+              "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "flex": "1"
+              }
+            },
+            {
+              "selectors": [
+                "#iv043"
+              ],
+              "style": {
+                "margin-top": "auto",
+                "padding-top": "20px",
+                "border-top": "1px solid rgba(255,255,255,0.2)",
+                "font-size": "11px",
+                "opacity": "0.8",
+                "text-align": "center"
+              }
+            },
+            {
+              "selectors": [
+                "#i6r1f"
+              ],
+              "style": {
+                "width": "250px",
+                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                "color": "white",
+                "padding": "20px",
+                "overflow-y": "auto",
+                "display": "flex",
+                "flex-direction": "column"
+              }
+            },
+            {
+              "selectors": [
+                "#ibctl"
+              ],
+              "style": {
+                "margin-top": "0",
+                "color": "#333",
+                "font-size": "32px",
+                "margin-bottom": "10px"
+              }
+            },
+            {
+              "selectors": [
+                "#imrm2"
+              ],
+              "style": {
+                "color": "#666",
+                "margin-bottom": "30px"
+              }
+            },
+            {
+              "selectors": [
+                "#table-loan-2"
+              ],
+              "style": {
+                "width": "100%",
+                "min-height": "400px"
+              }
+            },
+            {
+              "selectors": [
+                "#irg4z"
+              ],
+              "style": {
+                "display": "inline-flex",
+                "align-items": "center",
+                "padding": "6px 14px",
+                "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                "color": "#fff",
+                "text-decoration": "none",
+                "border-radius": "4px",
+                "font-size": "13px",
+                "font-weight": "600",
+                "letter-spacing": "0.01em",
+                "cursor": "pointer",
+                "border": "none",
+                "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                "transition": "background 0.2s"
+              }
+            },
+            {
+              "selectors": [
+                "#iehla"
+              ],
+              "style": {
+                "margin-top": "20px",
+                "display": "flex",
+                "gap": "10px",
+                "flex-wrap": "wrap"
+              }
+            },
+            {
+              "selectors": [
+                "#i8hzd"
+              ],
+              "style": {
+                "flex": "1",
+                "padding": "40px",
+                "overflow-y": "auto",
+                "background": "#f5f5f5"
+              }
+            },
+            {
+              "selectors": [
+                "#ik8p7"
+              ],
+              "style": {
+                "display": "flex",
+                "height": "100vh",
+                "font-family": "Arial, sans-serif"
+              }
+            },
+            {
+              "selectors": [
+                "#inu6e"
+              ],
+              "style": {
+                "margin-top": "0",
+                "font-size": "24px",
+                "margin-bottom": "30px",
+                "font-weight": "bold"
+              }
+            },
+            {
+              "selectors": [
+                "#ial9ca"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#ixe1uh"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#icicxy"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "transparent",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#i32k4i"
+              ],
+              "style": {
+                "color": "white",
+                "text-decoration": "none",
+                "padding": "10px 15px",
+                "display": "block",
+                "background": "rgba(255,255,255,0.2)",
+                "border-radius": "4px",
+                "margin-bottom": "5px"
+              }
+            },
+            {
+              "selectors": [
+                "#ih1g4k"
+              ],
+              "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "flex": "1"
+              }
+            },
+            {
+              "selectors": [
+                "#ieh2l3"
+              ],
+              "style": {
+                "margin-top": "auto",
+                "padding-top": "20px",
+                "border-top": "1px solid rgba(255,255,255,0.2)",
+                "font-size": "11px",
+                "opacity": "0.8",
+                "text-align": "center"
+              }
+            },
+            {
+              "selectors": [
+                "#i26it"
+              ],
+              "style": {
+                "width": "250px",
+                "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                "color": "white",
+                "padding": "20px",
+                "overflow-y": "auto",
+                "display": "flex",
+                "flex-direction": "column"
+              }
+            },
+            {
+              "selectors": [
+                "#iq7v9x"
+              ],
+              "style": {
+                "margin-top": "0",
+                "color": "#333",
+                "font-size": "32px",
+                "margin-bottom": "10px"
+              }
+            },
+            {
+              "selectors": [
+                "#ig56df"
+              ],
+              "style": {
+                "color": "#666",
+                "margin-bottom": "30px"
+              }
+            },
+            {
+              "selectors": [
+                "#table-author-3"
+              ],
+              "style": {
+                "width": "100%",
+                "min-height": "400px"
+              }
+            },
+            {
+              "selectors": [
+                "#i4vsof"
+              ],
+              "style": {
+                "flex": "1",
+                "padding": "40px",
+                "overflow-y": "auto",
+                "background": "#f5f5f5"
+              }
+            },
+            {
+              "selectors": [
+                "#i6zxw"
+              ],
+              "style": {
+                "display": "flex",
+                "height": "100vh",
+                "font-family": "Arial, sans-serif"
+              }
+            }
+          ],
+          "assets": [],
+          "symbols": [],
+          "version": "0.21.13"
+        },
+        "lastUpdate": "2026-03-19T09:28:51.681Z",
+        "references": {
+          "ClassDiagram": "45470338-05da-48f7-a675-ec673e3b7f6c",
+          "AgentDiagram": "94db67b6-068d-4e7d-891e-ee8bda83f136"
+        }
+      }
+    ],
+    "QuantumCircuitDiagram": [
+      {
+        "id": "6141a111-8560-44cc-9ebe-584d9cf61d59",
+        "title": "Quantum Circuit",
+        "model": {
+          "cols": [],
+          "gates": [],
+          "gateMetadata": {},
+          "classicalBitCount": 0,
+          "version": "1.0.0"
+        },
+        "lastUpdate": "2026-03-19T12:22:33.733Z"
+      }
+    ]
+  },
+  "settings": {
+    "defaultDiagramType": "ClassDiagram",
+    "autoSave": true,
+    "collaborationEnabled": false
+  },
+  "schemaVersion": 3,
+  "currentDiagramIndices": {
+    "ClassDiagram": 0,
+    "ObjectDiagram": 0,
+    "StateMachineDiagram": 0,
+    "AgentDiagram": 0,
+    "GUINoCodeDiagram": 0,
+    "QuantumCircuitDiagram": 0
+  }
+}
